@@ -11,16 +11,16 @@
   "plugins": [
     {
       "name": "suno-by-ace-data-cloud",
-      "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud. Independent service extension by Ace Data Cloud.",
+      "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud. Candidate: Qwen 0.25.2 native secret-runtime bug #14532 blocks authenticated use.",
       "version": "0.1.0",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/bae22af3b51b645917a414ca6831bb51ddb16d44",
+      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/e3fe407694b0b4ec28c6a63c0499de38d3701004",
       "source": {
         "source": "url",
-        "url": "https://github.com/AceDataCloud/SunoQwenCode/archive/bae22af3b51b645917a414ca6831bb51ddb16d44.tar.gz"
+        "url": "https://github.com/AceDataCloud/SunoQwenCode/archive/e3fe407694b0b4ec28c6a63c0499de38d3701004.tar.gz"
       },
       "category": "music",
       "keywords": [
@@ -34,16 +34,16 @@
     },
     {
       "name": "seedance-by-ace-data-cloud",
-      "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud. Independent service extension by Ace Data Cloud.",
+      "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud. Candidate: Qwen 0.25.2 native secret-runtime bug #14532 blocks authenticated use.",
       "version": "0.1.0",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/3eab17d7f1c3b51702fe13384b7788aa8130e706",
+      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/35aea8ee419559dad3a431d9878840e916237e24",
       "source": {
         "source": "url",
-        "url": "https://github.com/AceDataCloud/SeedanceQwenCode/archive/3eab17d7f1c3b51702fe13384b7788aa8130e706.tar.gz"
+        "url": "https://github.com/AceDataCloud/SeedanceQwenCode/archive/35aea8ee419559dad3a431d9878840e916237e24.tar.gz"
       },
       "category": "video",
       "keywords": [
@@ -57,16 +57,16 @@
     },
     {
       "name": "happyhorse-by-ace-data-cloud",
-      "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task. Independent service extension by Ace Data Cloud.",
+      "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task. Candidate: Qwen 0.25.2 native secret-runtime bug #14532 blocks authenticated use.",
       "version": "0.1.0",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/2823c4b5c14980ce73daf27fe329b830c06a6cf3",
+      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/98e7a524a81c76e0e1b7bedf9a43f6cc9f33ce53",
       "source": {
         "source": "url",
-        "url": "https://github.com/AceDataCloud/HappyHorseQwenCode/archive/2823c4b5c14980ce73daf27fe329b830c06a6cf3.tar.gz"
+        "url": "https://github.com/AceDataCloud/HappyHorseQwenCode/archive/98e7a524a81c76e0e1b7bedf9a43f6cc9f33ce53.tar.gz"
       },
       "category": "video",
       "keywords": [
@@ -80,16 +80,16 @@
     },
     {
       "name": "gpt-image-by-ace-data-cloud",
-      "description": "Generate and edit GPT Image pictures through Ace Data Cloud, with async task retrieval. Independent service extension by Ace Data Cloud.",
+      "description": "Generate and edit GPT Image pictures through Ace Data Cloud, with async task retrieval. Candidate: Qwen 0.25.2 native secret-runtime bug #14532 blocks authenticated use.",
       "version": "0.1.0",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/b980d2d015113a7c3ccf927432e96d90d3b9290b",
+      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/f65b7bd2cb40a5ce646a43547d0d509f844ce78e",
       "source": {
         "source": "url",
-        "url": "https://github.com/AceDataCloud/GPTImageQwenCode/archive/b980d2d015113a7c3ccf927432e96d90d3b9290b.tar.gz"
+        "url": "https://github.com/AceDataCloud/GPTImageQwenCode/archive/f65b7bd2cb40a5ce646a43547d0d509f844ce78e.tar.gz"
       },
       "category": "images",
       "keywords": [
@@ -103,16 +103,16 @@
     },
     {
       "name": "nano-banana-by-ace-data-cloud",
-      "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results. Independent service extension by Ace Data Cloud.",
+      "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results. Candidate: Qwen 0.25.2 native secret-runtime bug #14532 blocks authenticated use.",
       "version": "0.1.0",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/b0078614ac4e806b1cdfd2f75653960f2bae0e6d",
+      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/50df30f954d202f378741bf3ccaf171a2c4e0148",
       "source": {
         "source": "url",
-        "url": "https://github.com/AceDataCloud/NanoBananaQwenCode/archive/b0078614ac4e806b1cdfd2f75653960f2bae0e6d.tar.gz"
+        "url": "https://github.com/AceDataCloud/NanoBananaQwenCode/archive/50df30f954d202f378741bf3ccaf171a2c4e0148.tar.gz"
       },
       "category": "images",
       "keywords": [

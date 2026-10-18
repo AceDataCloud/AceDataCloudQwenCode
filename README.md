@@ -1,5 +1,8 @@
 # Ace Data Cloud native extensions for Qwen Code
 
+**Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
+
+
 Search by the service you need, and install only that extension. This is a supplementary source catalog, not an all-in-one plugin and not an official Qwen default marketplace. Each extension has its own source, sensitive credential prompt and review PR.
 
 **Candidate catalog:** implementation is on `codex/native-qwen-extension`; default main is not a released catalog until review/merge. Package entries pin each candidate's immutable source commit. No generated media, paid results, official listing or user counts are claimed.
@@ -21,11 +24,11 @@ Use the direct JSON URL above. Each entry points to an HTTPS immutable native ex
 
 | Service | Independent source | Candidate implementation PR |
 |---|---|---|
-| Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/bae22af3b51b645917a414ca6831bb51ddb16d44) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
-| Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/3eab17d7f1c3b51702fe13384b7788aa8130e706) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
-| HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/2823c4b5c14980ce73daf27fe329b830c06a6cf3) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
-| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/b980d2d015113a7c3ccf927432e96d90d3b9290b) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/1 |
-| Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/b0078614ac4e806b1cdfd2f75653960f2bae0e6d) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
+| Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/e3fe407694b0b4ec28c6a63c0499de38d3701004) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
+| Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/35aea8ee419559dad3a431d9878840e916237e24) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
+| HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/98e7a524a81c76e0e1b7bedf9a43f6cc9f33ce53) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
+| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/f65b7bd2cb40a5ce646a43547d0d509f844ce78e) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/1 |
+| Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/50df30f954d202f378741bf3ccaf171a2c4e0148) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
 
 A direct package install is also possible with `qwen extensions install AceDataCloud/<Service>QwenCode --ref codex/native-qwen-extension` while the PR is open. See the selected package's English/Chinese README for the exact command. Do not replace this with the default-branch command before release.
 
