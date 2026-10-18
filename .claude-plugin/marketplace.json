@@ -1,0 +1,128 @@
+{
+  "name": "ace-data-cloud-qwen-code",
+  "owner": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud"
+  },
+  "metadata": {
+    "description": "Independent Suno, Seedance, HappyHorse, GPT Image and Nano Banana native Qwen extensions. User-added source, not an official default Qwen directory.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "suno-by-ace-data-cloud",
+      "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud. Independent service extension by Ace Data Cloud.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/bae22af3b51b645917a414ca6831bb51ddb16d44",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/SunoQwenCode/archive/bae22af3b51b645917a414ca6831bb51ddb16d44.tar.gz"
+      },
+      "category": "music",
+      "keywords": [
+        "suno",
+        "music",
+        "audio",
+        "songs",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "seedance-by-ace-data-cloud",
+      "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud. Independent service extension by Ace Data Cloud.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/3eab17d7f1c3b51702fe13384b7788aa8130e706",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/SeedanceQwenCode/archive/3eab17d7f1c3b51702fe13384b7788aa8130e706.tar.gz"
+      },
+      "category": "video",
+      "keywords": [
+        "seedance",
+        "video",
+        "text-to-video",
+        "image-to-video",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "happyhorse-by-ace-data-cloud",
+      "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task. Independent service extension by Ace Data Cloud.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/2823c4b5c14980ce73daf27fe329b830c06a6cf3",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/HappyHorseQwenCode/archive/2823c4b5c14980ce73daf27fe329b830c06a6cf3.tar.gz"
+      },
+      "category": "video",
+      "keywords": [
+        "happyhorse",
+        "happy horse",
+        "video",
+        "video-editing",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "gpt-image-by-ace-data-cloud",
+      "description": "Generate and edit GPT Image pictures through Ace Data Cloud, with async task retrieval. Independent service extension by Ace Data Cloud.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/b980d2d015113a7c3ccf927432e96d90d3b9290b",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/GPTImageQwenCode/archive/b980d2d015113a7c3ccf927432e96d90d3b9290b.tar.gz"
+      },
+      "category": "images",
+      "keywords": [
+        "gpt image",
+        "gpt-image",
+        "image-generation",
+        "image-editing",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "nano-banana-by-ace-data-cloud",
+      "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results. Independent service extension by Ace Data Cloud.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/b0078614ac4e806b1cdfd2f75653960f2bae0e6d",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/NanoBananaQwenCode/archive/b0078614ac4e806b1cdfd2f75653960f2bae0e6d.tar.gz"
+      },
+      "category": "images",
+      "keywords": [
+        "nano banana",
+        "nanobanana",
+        "image-generation",
+        "image-editing",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    }
+  ]
+}
