@@ -35,7 +35,7 @@
     "env": "ACE_SUNO_API_TOKEN",
     "name": "suno-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "e3fe407694b0b4ec28c6a63c0499de38d3701004",
+    "head": "2d5b084937c2be7344e325df8c5a80e9a21a2cff",
     "pr": "https://github.com/AceDataCloud/SunoQwenCode/pull/1"
   },
   {
@@ -75,7 +75,7 @@
     "env": "ACE_SEEDANCE_API_TOKEN",
     "name": "seedance-by-ace-data-cloud",
     "icon_path": "_assets/icon.png",
-    "head": "35aea8ee419559dad3a431d9878840e916237e24",
+    "head": "8967fdf2d8f2e6724dab67ead29600b95da11ae9",
     "pr": "https://github.com/AceDataCloud/SeedanceQwenCode/pull/1"
   },
   {
@@ -115,7 +115,7 @@
     "env": "ACE_HAPPYHORSE_API_TOKEN",
     "name": "happyhorse-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "98e7a524a81c76e0e1b7bedf9a43f6cc9f33ce53",
+    "head": "6c87e9ef45c9e44a40b4b7bc30914ee7d71ee9bf",
     "pr": "https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1"
   },
   {
@@ -153,7 +153,7 @@
     "env": "ACE_GPT_IMAGE_API_TOKEN",
     "name": "gpt-image-by-ace-data-cloud",
     "icon_path": null,
-    "head": "f65b7bd2cb40a5ce646a43547d0d509f844ce78e",
+    "head": "d68886220eae08382b0d82101a06ccf6e3683de8",
     "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/1"
   },
   {
@@ -190,7 +190,7 @@
     "env": "ACE_NANO_BANANA_API_TOKEN",
     "name": "nano-banana-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "50df30f954d202f378741bf3ccaf171a2c4e0148",
+    "head": "70dde33acea66805e16ee52dfbe562eb0251bb78",
     "pr": "https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1"
   }
 ]

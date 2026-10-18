@@ -9,6 +9,22 @@ Search by the service you need, and install only that extension. This is a suppl
 
 [简体中文](README_zh_Hans.md) · [Official Qwen source/discovery documentation](https://qwenlm.github.io/qwen-code-docs/en/users/extension/introduction/#managing-marketplace-sources)
 
+## Credential storage and verified platform boundary
+
+**Wait for an official Qwen release containing [fix #14544](https://github.com/QwenLM/qwen-code/pull/14544) before using this extension with a real Token.** Qwen0.25.2 is the installation baseline, not a fixed authenticated-runtime version. No fixed release version has been verified yet.
+
+A [validation-only fork run](https://github.com/AceDataCloud/qwen-code/actions/runs/39109190158) built the owning core package at the exact fix candidate and exercised saved settings through Qwen's real MCP transport to localhost, without forcing a backend:
+
+| Environment | Selected backend | Evidence |
+|---|---|---|
+| Windows Server2022 x64, Node22.23.3 | System credential store (`keychain` through keytar) | 26 checks PASS, including stored Token → extension Header → localhost initialize. This covers the hosted runner session, not every user's permission or lock state. |
+| Linux x64, Node22.23.3 | Qwen's normal `encrypted_file` fallback | 25 checks PASS. The runner's system Secret Service was unavailable; this does not validate Linux Keychain. |
+| macOS | Pending platform follow-up | Earlier local macOS x64 full CLI checks passed only with an isolated encrypted-file backend. Local native keytar binding was unavailable, so those checks do not prove macOS Keychain. |
+
+These additional Windows/Linux checks build core and use its real storage/manager/transport; they do not replace a full Windows/Linux interactive CLI test or prove a released fix. Existing macOS source-built CLI checks remain separately recorded.
+
+The installer records the selected backend in `.qwen-extension-settings.json`; no need to copy or expose the secret bundle. Qwen can normally choose encrypted-file storage when the OS backend is unavailable; that is encrypted storage, not a plaintext Token fallback. A missing/unreadable selected store after installation is a failure, not permission to switch credentials silently. The fix candidate keeps the extension manageable, disables its MCP servers and asks for uninstall/reinstall. Reinstall can preserve existing workspace overrides; review and rotate scoped settings through hidden input if needed. Do not export the Token globally, force a different backend, put it in manifests/arguments, unlock a keychain or change OS permissions to work around this candidate's blocker.
+
 ## Add the source and discover a service
 
 ```bash
@@ -24,11 +40,11 @@ Use the direct JSON URL above. Each entry points to an HTTPS immutable native ex
 
 | Service | Independent source | Candidate implementation PR |
 |---|---|---|
-| Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/e3fe407694b0b4ec28c6a63c0499de38d3701004) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
-| Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/35aea8ee419559dad3a431d9878840e916237e24) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
-| HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/98e7a524a81c76e0e1b7bedf9a43f6cc9f33ce53) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
-| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/f65b7bd2cb40a5ce646a43547d0d509f844ce78e) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/1 |
-| Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/50df30f954d202f378741bf3ccaf171a2c4e0148) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
+| Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/2d5b084937c2be7344e325df8c5a80e9a21a2cff) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
+| Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/8967fdf2d8f2e6724dab67ead29600b95da11ae9) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
+| HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/6c87e9ef45c9e44a40b4b7bc30914ee7d71ee9bf) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
+| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/d68886220eae08382b0d82101a06ccf6e3683de8) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/1 |
+| Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/70dde33acea66805e16ee52dfbe562eb0251bb78) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
 
 A direct package install is also possible with `qwen extensions install AceDataCloud/<Service>QwenCode --ref codex/native-qwen-extension` while the PR is open. See the selected package's English/Chinese README for the exact command. Do not replace this with the default-branch command before release.
 
