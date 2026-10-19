@@ -1,11 +1,11 @@
 # Qwen Code：Ace 独立品牌扩展目录
 
-**Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
+**Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
 
 
 这里是补充搜索来源，不是合集插件，也不是 Qwen 默认官方市场。Suno、Seedance、HappyHorse、GPT Image、Nano Banana 各自独立安装；凭据、权限和服务互不混装。
 
-**源码预发行 `0.1.0-rc.1`：** 五服务源码已合并并打 tag；本目录固定它们的不可变合并提交。以下命令添加 main 来源后，在 `/extensions manage` → Discover 搜品牌名，选择作者 Ace Data Cloud 并安装单项。不是 Qwen 官方默认市场，也不代表真实媒体鉴权正式可用；未修复官方 CLI 只填合成占位值，不调用托管 MCP。
+**目录源码预发行 `0.1.0-rc.2`：** 仅 GPT Image 更新为独立 RC2 专用五工具 stdio 入口；其余四服务保留 RC1 与原不可变提交。以下命令添加 main 来源后，在 `/extensions manage` → Discover 搜品牌名，选择作者 Ace Data Cloud 并安装单项。不是 Qwen 官方默认市场，也不代表真实媒体鉴权正式可用；未修复官方 CLI 只填合成占位值，不调用业务工具。
 
 ```bash
 qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDataCloudQwenCode/main/.claude-plugin/marketplace.json
@@ -14,8 +14,10 @@ qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDa
 - **Suno**：[SunoQwenCode 中文教程](https://github.com/AceDataCloud/SunoQwenCode/blob/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SunoQwenCode/pull/1。
 - **Seedance**：[SeedanceQwenCode 中文教程](https://github.com/AceDataCloud/SeedanceQwenCode/blob/edd900cde0d31b506f0ad300a0caf9350bb9358e/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SeedanceQwenCode/pull/1。
 - **HappyHorse**：[HappyHorseQwenCode 中文教程](https://github.com/AceDataCloud/HappyHorseQwenCode/blob/36dfa83ba2dcf51ac2407f6773121ed37191ab5b/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1。
-- **GPT Image**：[GPTImageQwenCode 中文教程](https://github.com/AceDataCloud/GPTImageQwenCode/blob/6e6176b5ffdba94e3b2946e6bffa017b12a02998/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/GPTImageQwenCode/pull/1。
+- **GPT Image**：[GPTImageQwenCode 中文教程](https://github.com/AceDataCloud/GPTImageQwenCode/blob/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/GPTImageQwenCode/pull/2。
 - **Nano Banana**：[NanoBananaQwenCode 中文教程](https://github.com/AceDataCloud/NanoBananaQwenCode/blob/eb29126040cb149b1d751242750fa19e446bb8f6/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1。
+
+GPT Image RC2 需要 **uv/uvx 与 Python 3.10+**，复用已发布 `mcp-openai-pro==2026.10.19.5 --profile gpt-image`。五项 `gpt_image_*` 工具不暴露通用 OpenAI 或退役 Sora，不回退通用托管 URL；详见固定服务教程。直接安装 GPT Image 时使用 `--ref v0.1.0-rc.2`，其余四项仍为 `--ref v0.1.0-rc.1`。官方含修复 Qwen 的前提不变。
 
 注册/登录 [Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_api_key)，初始化或打开 **General application**，复制 API Key，或 Manage Keys → Create 创建独立 Token。核对服务权限、有效期、Allowed APIs、当前余额与价格；待官方修复版核验后，在 Qwen 扩展的 **Ace Data Cloud API Token** 隐藏提示框粘贴真实值；当前仅合成占位值，不写进聊天或命令参数。
 
@@ -23,7 +25,7 @@ qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDa
 
 ![创建独立 Token](_assets/tutorial/create-api-key-en.png)
 
-图来自 2026-10-07 固定 SunoDify 共用应用页教程，2026-10-18 复用；凭据已遮盖。各单服务教程另有 Qwen 历史原图改编，明确不是扩展设置的实拍；新图排队，不造假。
+图来自 2026-10-07 固定 SunoDify 共用应用页教程，2026-10-18 复用；凭据已遮盖。部分服务旧教程包含 Qwen 历史原图改编，明确不是扩展设置的实拍；新图排队，不造假。
 
 安装免费，模型对话与媒体操作按自己的应用计费。首次生成前选定模型、参数和预算并授权；保存 task_id，原 ID 查询直到终态成功且媒体可用，不因 pending 重新生成，不自动换模型。当前没有本批扩展的 Qwen 付费结果或营收数据。
 

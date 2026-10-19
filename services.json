@@ -134,14 +134,15 @@
     "mcp_repo": "OpenAIMCP",
     "package": "mcp-openai-pro",
     "tools": [
-      "openai_list_image_models",
-      "openai_generate_image",
-      "openai_edit_image",
-      "openai_get_task"
+      "gpt_image_generate",
+      "gpt_image_edit",
+      "gpt_image_get_task",
+      "gpt_image_list_tasks",
+      "gpt_image_list_models"
     ],
-    "info": "openai_list_image_models",
-    "generate": "openai_generate_image",
-    "retrieve": "openai_get_task",
+    "info": "gpt_image_list_models",
+    "generate": "gpt_image_generate",
+    "retrieve": "gpt_image_get_task",
     "id_field": "id",
     "api": [
       "/openai/images/generations",
@@ -159,10 +160,13 @@
     "env": "ACE_GPT_IMAGE_API_TOKEN",
     "name": "gpt-image-by-ace-data-cloud",
     "icon_path": null,
-    "head": "6e6176b5ffdba94e3b2946e6bffa017b12a02998",
-    "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/1",
-    "version": "0.1.0-rc.1",
-    "release": "https://github.com/AceDataCloud/GPTImageQwenCode/releases/tag/v0.1.0-rc.1"
+    "head": "dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3",
+    "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/2",
+    "version": "0.1.0-rc.2",
+    "release": "https://github.com/AceDataCloud/GPTImageQwenCode/releases/tag/v0.1.0-rc.2",
+    "transport": "stdio",
+    "profile": "gpt-image",
+    "package_version": "2026.10.19.5"
   },
   {
     "repo": "NanoBananaQwenCode",

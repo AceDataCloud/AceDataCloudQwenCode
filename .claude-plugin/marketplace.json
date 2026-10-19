@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Independent Suno, Seedance, HappyHorse, GPT Image and Nano Banana native Qwen extensions. User-added source, not an official default Qwen directory.",
-    "version": "0.1.0-rc.1"
+    "version": "0.1.0-rc.2"
   },
   "plugins": [
     {
@@ -80,16 +80,16 @@
     },
     {
       "name": "gpt-image-by-ace-data-cloud",
-      "description": "Generate and edit GPT Image pictures through Ace Data Cloud, with async task retrieval. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.1",
+      "description": "GPT Image generation, editing and task retrieval through Ace Data Cloud. Dedicated five-tool stdio profile; requires uv/uvx and Python 3.10+. Source RC: official Qwen fix #14544 remains unreleased; synthetic setup only.",
+      "version": "0.1.0-rc.2",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/6e6176b5ffdba94e3b2946e6bffa017b12a02998",
+      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3",
       "source": {
         "source": "url",
-        "url": "https://github.com/AceDataCloud/GPTImageQwenCode/archive/6e6176b5ffdba94e3b2946e6bffa017b12a02998.tar.gz"
+        "url": "https://github.com/AceDataCloud/GPTImageQwenCode/archive/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3.tar.gz"
       },
       "category": "images",
       "keywords": [
