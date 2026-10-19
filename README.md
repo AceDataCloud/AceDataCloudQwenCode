@@ -5,7 +5,7 @@
 
 Search by the service you need, and install only that extension. This is a supplementary source catalog, not an all-in-one plugin and not an official Qwen default marketplace. Each extension has its own source, sensitive credential prompt and review PR.
 
-**Candidate catalog:** implementation is on `codex/native-qwen-extension`; default main is not a released catalog until review/merge. Package entries pin each candidate's immutable source commit. No generated media, paid results, official listing or user counts are claimed.
+**Source prerelease `0.1.0-rc.1`:** the five service sources are merged and tagged; this catalog pins their immutable merge commits. It is a user-added source, not an official Qwen default market or authenticated-media general-availability release. The runtime gate below remains in force.
 
 [简体中文](README_zh_Hans.md) · [Official Qwen source/discovery documentation](https://qwenlm.github.io/qwen-code-docs/en/users/extension/introduction/#managing-marketplace-sources)
 
@@ -28,7 +28,7 @@ The installer records the selected backend in `.qwen-extension-settings.json`; n
 ## Add the source and discover a service
 
 ```bash
-qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDataCloudQwenCode/codex/native-qwen-extension/.claude-plugin/marketplace.json
+qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDataCloudQwenCode/main/.claude-plugin/marketplace.json
 qwen extensions sources list
 ```
 
@@ -38,19 +38,19 @@ Use the direct JSON URL above. Each entry points to an HTTPS immutable native ex
 
 ## Independent service packages
 
-| Service | Independent source | Candidate implementation PR |
+| Service | Independent source | Merged source PR |
 |---|---|---|
-| Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/eb0cfe877d306e150a376eefd14ac675deb2e57f) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
-| Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/d03035f364ee1c6526baf9e4e941272fb4c2360d) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
-| HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/a17ad2f7301c52eafe2c192dfaabbc096a578a02) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
-| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/b6256b69345a82730dd3d276ee5bb3fc97bd5134) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/1 |
-| Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/66b3de70903273fedf132e343f5c006bbf182412) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
+| Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
+| Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/edd900cde0d31b506f0ad300a0caf9350bb9358e) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
+| HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/36dfa83ba2dcf51ac2407f6773121ed37191ab5b) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
+| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/6e6176b5ffdba94e3b2946e6bffa017b12a02998) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/1 |
+| Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/eb29126040cb149b1d751242750fa19e446bb8f6) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
 
-A direct package install is also possible with `qwen extensions install AceDataCloud/<Service>QwenCode --ref codex/native-qwen-extension` while the PR is open. See the selected package's English/Chinese README for the exact command. Do not replace this with the default-branch command before release.
+A normal direct install is `qwen extensions install AceDataCloud/<Service>QwenCode`; append `--ref v0.1.0-rc.1` to pin the source prerelease. See each service README. On an unfixed official CLI, enter only a synthetic placeholder and do not call the hosted MCP.
 
 ## Register / API Token / first result
 
-[Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_api_key). Open **General application**, or initialize it, then copy or create a dedicated Token with the chosen service's permissions. Review [current prices and balance](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_pricing). Paste the raw Token into the native extension's hidden **Ace Data Cloud API Token** prompt; never into chat, exported manifests or command arguments.
+[Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_api_key). Open **General application**, or initialize it, then copy or create a dedicated Token with the chosen service's permissions. Review [current prices and balance](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_pricing). After a fixed official CLI is verified, paste the raw Token into the native extension's hidden **Ace Data Cloud API Token** prompt; never into chat, exported manifests or command arguments.
 
 ![Actual Ace Key controls](_assets/tutorial/get-api-key-en.png)
 

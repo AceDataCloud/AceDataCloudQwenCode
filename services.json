@@ -35,8 +35,10 @@
     "env": "ACE_SUNO_API_TOKEN",
     "name": "suno-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "eb0cfe877d306e150a376eefd14ac675deb2e57f",
-    "pr": "https://github.com/AceDataCloud/SunoQwenCode/pull/1"
+    "head": "2a46582fd0bdec3ca3ab81b9037e399fa5a19c08",
+    "pr": "https://github.com/AceDataCloud/SunoQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/SunoQwenCode/releases/tag/v0.1.0-rc.1"
   },
   {
     "repo": "SeedanceQwenCode",
@@ -75,8 +77,10 @@
     "env": "ACE_SEEDANCE_API_TOKEN",
     "name": "seedance-by-ace-data-cloud",
     "icon_path": "_assets/icon.png",
-    "head": "d03035f364ee1c6526baf9e4e941272fb4c2360d",
-    "pr": "https://github.com/AceDataCloud/SeedanceQwenCode/pull/1"
+    "head": "edd900cde0d31b506f0ad300a0caf9350bb9358e",
+    "pr": "https://github.com/AceDataCloud/SeedanceQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/SeedanceQwenCode/releases/tag/v0.1.0-rc.1"
   },
   {
     "repo": "HappyHorseQwenCode",
@@ -115,8 +119,10 @@
     "env": "ACE_HAPPYHORSE_API_TOKEN",
     "name": "happyhorse-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "a17ad2f7301c52eafe2c192dfaabbc096a578a02",
-    "pr": "https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1"
+    "head": "36dfa83ba2dcf51ac2407f6773121ed37191ab5b",
+    "pr": "https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/HappyHorseQwenCode/releases/tag/v0.1.0-rc.1"
   },
   {
     "repo": "GPTImageQwenCode",
@@ -153,8 +159,10 @@
     "env": "ACE_GPT_IMAGE_API_TOKEN",
     "name": "gpt-image-by-ace-data-cloud",
     "icon_path": null,
-    "head": "b6256b69345a82730dd3d276ee5bb3fc97bd5134",
-    "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/1"
+    "head": "6e6176b5ffdba94e3b2946e6bffa017b12a02998",
+    "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/GPTImageQwenCode/releases/tag/v0.1.0-rc.1"
   },
   {
     "repo": "NanoBananaQwenCode",
@@ -190,7 +198,9 @@
     "env": "ACE_NANO_BANANA_API_TOKEN",
     "name": "nano-banana-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "66b3de70903273fedf132e343f5c006bbf182412",
-    "pr": "https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1"
+    "head": "eb29126040cb149b1d751242750fa19e446bb8f6",
+    "pr": "https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/NanoBananaQwenCode/releases/tag/v0.1.0-rc.1"
   }
 ]
