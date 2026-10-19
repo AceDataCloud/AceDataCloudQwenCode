@@ -18,4 +18,20 @@ class CatalogTests(unittest.TestCase):
             self.assertNotIn('installs', item)
             self.assertNotIn('downloads', item)
 
+    def test_catalog_pins_match_independent_service_releases(self):
+        entries = json.loads((ROOT/'.claude-plugin/marketplace.json').read_text())['plugins']
+        services = json.loads((ROOT/'services.json').read_text())
+        self.assertEqual({x['name'] for x in entries}, {x['name'] for x in services})
+        for service in services:
+            entry = next(x for x in entries if x['name'] == service['name'])
+            repo = 'https://github.com/AceDataCloud/' + service['repo']
+            self.assertEqual(entry['version'], service['version'])
+            self.assertEqual(entry['homepage'], repo + '/tree/' + service['head'])
+            self.assertEqual(entry['source']['url'], repo + '/archive/' + service['head'] + '.tar.gz')
+        gpt = next(x for x in services if x['repo'] == 'GPTImageQwenCode')
+        self.assertEqual(gpt['transport'], 'stdio')
+        self.assertEqual(gpt['profile'], 'gpt-image')
+        self.assertEqual(len(gpt['tools']), 5)
+        self.assertTrue(all(x.startswith('gpt_image_') for x in gpt['tools']))
+
 if __name__ == '__main__': unittest.main()

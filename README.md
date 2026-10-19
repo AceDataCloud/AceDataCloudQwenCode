@@ -1,11 +1,11 @@
 # Ace Data Cloud native extensions for Qwen Code
 
-**Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
+**Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
 
 
 Search by the service you need, and install only that extension. This is a supplementary source catalog, not an all-in-one plugin and not an official Qwen default marketplace. Each extension has its own source, sensitive credential prompt and review PR.
 
-**Source prerelease `0.1.0-rc.1`:** the five service sources are merged and tagged; this catalog pins their immutable merge commits. It is a user-added source, not an official Qwen default market or authenticated-media general-availability release. The runtime gate below remains in force.
+**Catalog source prerelease `0.1.0-rc.2`:** GPT Image now pins its independent RC2 dedicated five-tool stdio release; the other four services retain RC1 and their unchanged immutable commits. It is a user-added source, not an official Qwen default market or authenticated-media general-availability release. The runtime gate below remains in force.
 
 [简体中文](README_zh_Hans.md) · [Official Qwen source/discovery documentation](https://qwenlm.github.io/qwen-code-docs/en/users/extension/introduction/#managing-marketplace-sources)
 
@@ -43,10 +43,12 @@ Use the direct JSON URL above. Each entry points to an HTTPS immutable native ex
 | Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
 | Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/edd900cde0d31b506f0ad300a0caf9350bb9358e) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
 | HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/36dfa83ba2dcf51ac2407f6773121ed37191ab5b) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
-| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/6e6176b5ffdba94e3b2946e6bffa017b12a02998) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/1 |
+| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/2 |
 | Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/eb29126040cb149b1d751242750fa19e446bb8f6) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
 
-A normal direct install is `qwen extensions install AceDataCloud/<Service>QwenCode`; append `--ref v0.1.0-rc.1` to pin the source prerelease. See each service README. On an unfixed official CLI, enter only a synthetic placeholder and do not call the hosted MCP.
+A normal direct install is `qwen extensions install AceDataCloud/<Service>QwenCode`; append `--ref v0.1.0-rc.2` for GPT Image or `--ref v0.1.0-rc.1` for the other four services. See each service README. On an unfixed official CLI, enter only a synthetic placeholder and do not invoke business tools.
+
+GPT Image RC2 requires **uv/uvx and Python 3.10+** and launches the existing published `mcp-openai-pro==2026.10.19.5 --profile gpt-image`. Its five `gpt_image_*` tools exclude the general OpenAI and retired Sora surface; it does not fall back to the general hosted URL. See the pinned service README for setup. This does not remove the official fixed-Qwen prerequisite.
 
 ## Register / API Token / first result
 
