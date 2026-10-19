@@ -1,0 +1,128 @@
+{
+  "name": "ace-data-cloud-qwen-code",
+  "owner": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud"
+  },
+  "metadata": {
+    "description": "Independent Suno, Seedance, HappyHorse, GPT Image and Nano Banana native Qwen extensions. User-added source, not an official default Qwen directory.",
+    "version": "0.1.0-rc.1"
+  },
+  "plugins": [
+    {
+      "name": "suno-by-ace-data-cloud",
+      "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
+      "version": "0.1.0-rc.1",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/SunoQwenCode/archive/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08.tar.gz"
+      },
+      "category": "music",
+      "keywords": [
+        "suno",
+        "music",
+        "audio",
+        "songs",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "seedance-by-ace-data-cloud",
+      "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
+      "version": "0.1.0-rc.1",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/edd900cde0d31b506f0ad300a0caf9350bb9358e",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/SeedanceQwenCode/archive/edd900cde0d31b506f0ad300a0caf9350bb9358e.tar.gz"
+      },
+      "category": "video",
+      "keywords": [
+        "seedance",
+        "video",
+        "text-to-video",
+        "image-to-video",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "happyhorse-by-ace-data-cloud",
+      "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
+      "version": "0.1.0-rc.1",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/36dfa83ba2dcf51ac2407f6773121ed37191ab5b",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/HappyHorseQwenCode/archive/36dfa83ba2dcf51ac2407f6773121ed37191ab5b.tar.gz"
+      },
+      "category": "video",
+      "keywords": [
+        "happyhorse",
+        "happy horse",
+        "video",
+        "video-editing",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "gpt-image-by-ace-data-cloud",
+      "description": "Generate and edit GPT Image pictures through Ace Data Cloud, with async task retrieval. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
+      "version": "0.1.0-rc.1",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/6e6176b5ffdba94e3b2946e6bffa017b12a02998",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/GPTImageQwenCode/archive/6e6176b5ffdba94e3b2946e6bffa017b12a02998.tar.gz"
+      },
+      "category": "images",
+      "keywords": [
+        "gpt image",
+        "gpt-image",
+        "image-generation",
+        "image-editing",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    },
+    {
+      "name": "nano-banana-by-ace-data-cloud",
+      "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
+      "version": "0.1.0-rc.1",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/eb29126040cb149b1d751242750fa19e446bb8f6",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/NanoBananaQwenCode/archive/eb29126040cb149b1d751242750fa19e446bb8f6.tar.gz"
+      },
+      "category": "images",
+      "keywords": [
+        "nano banana",
+        "nanobanana",
+        "image-generation",
+        "image-editing",
+        "qwen-code",
+        "acedatacloud"
+      ]
+    }
+  ]
+}

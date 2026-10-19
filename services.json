@@ -1,0 +1,206 @@
+[
+  {
+    "repo": "SunoQwenCode",
+    "slug": "suno",
+    "brand": "Suno",
+    "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud.",
+    "cn": "通过 Ace Data Cloud 生成 Suno 音乐，并查询同一任务的音频结果。",
+    "endpoint": "suno",
+    "mcp_repo": "SunoMCP",
+    "package": "mcp-suno",
+    "tools": [
+      "suno_list_models",
+      "suno_list_actions",
+      "suno_generate_music",
+      "suno_generate_custom_music",
+      "suno_get_task",
+      "suno_get_tasks_batch"
+    ],
+    "info": "suno_list_models",
+    "generate": "suno_generate_music",
+    "retrieve": "suno_get_task",
+    "id_field": "task_id",
+    "api": [
+      "/suno/audios",
+      "/suno/tasks"
+    ],
+    "keywords": [
+      "suno",
+      "music",
+      "audio",
+      "songs"
+    ],
+    "dify": "SunoDify",
+    "icon": "icon.jpg",
+    "env": "ACE_SUNO_API_TOKEN",
+    "name": "suno-by-ace-data-cloud",
+    "icon_path": "_assets/icon.jpg",
+    "head": "2a46582fd0bdec3ca3ab81b9037e399fa5a19c08",
+    "pr": "https://github.com/AceDataCloud/SunoQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/SunoQwenCode/releases/tag/v0.1.0-rc.1"
+  },
+  {
+    "repo": "SeedanceQwenCode",
+    "slug": "seedance",
+    "brand": "Seedance",
+    "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud.",
+    "cn": "通过 Ace Data Cloud 生成 Seedance 视频，并查询同一任务的完成结果。",
+    "endpoint": "seedance",
+    "mcp_repo": "SeedanceMCP",
+    "package": "mcp-seedance",
+    "tools": [
+      "seedance_list_models",
+      "seedance_list_resolutions",
+      "seedance_list_actions",
+      "seedance_generate_video",
+      "seedance_generate_video_from_image",
+      "seedance_get_task",
+      "seedance_get_tasks_batch"
+    ],
+    "info": "seedance_list_models",
+    "generate": "seedance_generate_video",
+    "retrieve": "seedance_get_task",
+    "id_field": "task_id",
+    "api": [
+      "/seedance/videos",
+      "/seedance/tasks"
+    ],
+    "keywords": [
+      "seedance",
+      "video",
+      "text-to-video",
+      "image-to-video"
+    ],
+    "dify": "SeedanceDify",
+    "icon": "icon.png",
+    "env": "ACE_SEEDANCE_API_TOKEN",
+    "name": "seedance-by-ace-data-cloud",
+    "icon_path": "_assets/icon.png",
+    "head": "edd900cde0d31b506f0ad300a0caf9350bb9358e",
+    "pr": "https://github.com/AceDataCloud/SeedanceQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/SeedanceQwenCode/releases/tag/v0.1.0-rc.1"
+  },
+  {
+    "repo": "HappyHorseQwenCode",
+    "slug": "happyhorse",
+    "brand": "HappyHorse",
+    "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task.",
+    "cn": "通过 Ace Data Cloud 生成或编辑 HappyHorse 视频，并查询原任务。",
+    "endpoint": "happyhorse",
+    "mcp_repo": "HappyHorseMCP",
+    "package": "mcp-happyhorse",
+    "tools": [
+      "happyhorse_list_models",
+      "happyhorse_generate_video",
+      "happyhorse_generate_video_from_image",
+      "happyhorse_generate_video_from_references",
+      "happyhorse_edit_video",
+      "happyhorse_get_task",
+      "happyhorse_get_tasks_batch"
+    ],
+    "info": "happyhorse_list_models",
+    "generate": "happyhorse_generate_video",
+    "retrieve": "happyhorse_get_task",
+    "id_field": "task_id",
+    "api": [
+      "/happyhorse/videos",
+      "/happyhorse/tasks"
+    ],
+    "keywords": [
+      "happyhorse",
+      "happy horse",
+      "video",
+      "video-editing"
+    ],
+    "dify": "HappyHorseDify",
+    "icon": "icon.jpg",
+    "env": "ACE_HAPPYHORSE_API_TOKEN",
+    "name": "happyhorse-by-ace-data-cloud",
+    "icon_path": "_assets/icon.jpg",
+    "head": "36dfa83ba2dcf51ac2407f6773121ed37191ab5b",
+    "pr": "https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/HappyHorseQwenCode/releases/tag/v0.1.0-rc.1"
+  },
+  {
+    "repo": "GPTImageQwenCode",
+    "slug": "gpt-image",
+    "brand": "GPT Image",
+    "description": "Generate and edit GPT Image pictures through Ace Data Cloud, with async task retrieval.",
+    "cn": "通过 Ace Data Cloud 使用 GPT Image 生成或编辑图片，并查询异步任务结果。",
+    "endpoint": "openai",
+    "mcp_repo": "OpenAIMCP",
+    "package": "mcp-openai-pro",
+    "tools": [
+      "openai_list_image_models",
+      "openai_generate_image",
+      "openai_edit_image",
+      "openai_get_task"
+    ],
+    "info": "openai_list_image_models",
+    "generate": "openai_generate_image",
+    "retrieve": "openai_get_task",
+    "id_field": "id",
+    "api": [
+      "/openai/images/generations",
+      "/openai/images/edits",
+      "/openai/tasks"
+    ],
+    "keywords": [
+      "gpt image",
+      "gpt-image",
+      "image-generation",
+      "image-editing"
+    ],
+    "dify": null,
+    "icon": null,
+    "env": "ACE_GPT_IMAGE_API_TOKEN",
+    "name": "gpt-image-by-ace-data-cloud",
+    "icon_path": null,
+    "head": "6e6176b5ffdba94e3b2946e6bffa017b12a02998",
+    "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/GPTImageQwenCode/releases/tag/v0.1.0-rc.1"
+  },
+  {
+    "repo": "NanoBananaQwenCode",
+    "slug": "nano-banana",
+    "brand": "Nano Banana",
+    "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results.",
+    "cn": "通过 Ace Data Cloud 使用 Nano Banana 生成或编辑图片，并查询同一任务结果。",
+    "endpoint": "nanobanana",
+    "mcp_repo": "NanoBananaMCP",
+    "package": "mcp-nanobanana-pro",
+    "tools": [
+      "nanobanana_generate_image",
+      "nanobanana_edit_image",
+      "nanobanana_get_task",
+      "nanobanana_get_tasks_batch"
+    ],
+    "info": null,
+    "generate": "nanobanana_generate_image",
+    "retrieve": "nanobanana_get_task",
+    "id_field": "task_id",
+    "api": [
+      "/nanobanana/images",
+      "/nanobanana/tasks"
+    ],
+    "keywords": [
+      "nano banana",
+      "nanobanana",
+      "image-generation",
+      "image-editing"
+    ],
+    "dify": "NanoBananaDify",
+    "icon": "icon.jpg",
+    "env": "ACE_NANO_BANANA_API_TOKEN",
+    "name": "nano-banana-by-ace-data-cloud",
+    "icon_path": "_assets/icon.jpg",
+    "head": "eb29126040cb149b1d751242750fa19e446bb8f6",
+    "pr": "https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1",
+    "version": "0.1.0-rc.1",
+    "release": "https://github.com/AceDataCloud/NanoBananaQwenCode/releases/tag/v0.1.0-rc.1"
+  }
+]
