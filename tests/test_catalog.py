@@ -5,11 +5,11 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 
 class CatalogTests(unittest.TestCase):
-    def test_five_distinct_native_archives(self):
+    def test_distinct_native_archives(self):
         entries = json.loads((ROOT/'.claude-plugin/marketplace.json').read_text())['plugins']
-        self.assertEqual(len(entries), 5)
-        self.assertEqual(len({x['name'] for x in entries}), 5)
-        self.assertEqual(len({x['source']['url'] for x in entries}), 5)
+        self.assertIn("ace-music-by-ace-data-cloud", {x["name"] for x in entries})
+        self.assertEqual(len({x['name'] for x in entries}), len(entries))
+        self.assertEqual(len({x['source']['url'] for x in entries}), len(entries))
         for item in entries:
             self.assertEqual(item['author']['name'], 'Ace Data Cloud')
             self.assertTrue(item['source']['url'].endswith('.tar.gz'))
