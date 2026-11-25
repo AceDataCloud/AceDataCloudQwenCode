@@ -1,5 +1,7 @@
 # Ace Data Cloud native extensions for Qwen Code
 
+ACE Music uses a process-environment token injected through your secret manager. Qwen Code 0.28.3 was verified to install the extension and attach that token to MCP initialization against a loopback receiver. The historical native *stored setting* limitation below applies to the older five packages. [ACE Music extension at its catalog revision](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387)
+
 **Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
 
 

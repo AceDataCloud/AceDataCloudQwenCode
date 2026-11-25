@@ -206,5 +206,51 @@
     "pr": "https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1",
     "version": "0.1.0-rc.1",
     "release": "https://github.com/AceDataCloud/NanoBananaQwenCode/releases/tag/v0.1.0-rc.1"
+  },
+  {
+    "repo": "ACEMusicQwenCode",
+    "slug": "acemusic",
+    "brand": "ACE Music",
+    "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
+    "cn": "创作歌曲和歌词、上传参考音频、翻唱或融合自己的音轨，以及查询原任务。",
+    "endpoint": "acemusic",
+    "mcp_repo": "AceMusicMCP",
+    "package": "mcp-acemusic",
+    "tools": [
+      "acemusic_list_models",
+      "acemusic_get_capabilities",
+      "acemusic_generate_music",
+      "acemusic_generate_custom_music",
+      "acemusic_generate_lyrics",
+      "acemusic_upload_audio",
+      "acemusic_cover_audio",
+      "acemusic_mashup_audio",
+      "acemusic_get_task",
+      "acemusic_get_tasks_batch",
+      "acemusic_list_tasks"
+    ],
+    "info": "acemusic_list_models",
+    "generate": "acemusic_generate_music",
+    "retrieve": "acemusic_get_task",
+    "id_field": "task_id",
+    "api": [
+      "/acemusic/audios",
+      "/acemusic/lyrics",
+      "/acemusic/tasks"
+    ],
+    "keywords": [
+      "ace-music",
+      "acemusic",
+      "music",
+      "audio",
+      "lyrics"
+    ],
+    "env": "ACEDATACLOUD_ACEMUSIC_TOKEN",
+    "name": "ace-music-by-ace-data-cloud",
+    "head": "871341e04f961a09c51f12657c4b2f0e541e1387",
+    "pr": "https://github.com/AceDataCloud/ACEMusicQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": null,
+    "transport": "http"
   }
 ]

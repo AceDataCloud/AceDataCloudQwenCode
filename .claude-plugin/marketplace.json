@@ -5,7 +5,7 @@
     "email": "dev@acedata.cloud"
   },
   "metadata": {
-    "description": "Independent Suno, Seedance, HappyHorse, GPT Image and Nano Banana native Qwen extensions. User-added source, not an official default Qwen directory.",
+    "description": "Independent native Qwen service extensions from Ace Data Cloud. Add this source to discover and install individual services.",
     "version": "0.1.0-rc.2"
   },
   "plugins": [
@@ -122,6 +122,28 @@
         "image-editing",
         "qwen-code",
         "acedatacloud"
+      ]
+    },
+    {
+      "name": "ace-music-by-ace-data-cloud",
+      "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/ACEMusicQwenCode/archive/871341e04f961a09c51f12657c4b2f0e541e1387.tar.gz"
+      },
+      "category": "music",
+      "keywords": [
+        "ace-music",
+        "acemusic",
+        "music",
+        "audio",
+        "lyrics"
       ]
     }
   ]

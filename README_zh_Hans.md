@@ -1,5 +1,7 @@
 # Qwen Code：Ace 独立品牌扩展目录
 
+ACE Music 扩展从 Qwen 进程的环境变量读取服务 Key。使用 Qwen Code 0.28.3 验证了原生安装及本地 MCP 初始化时的请求头。下文较早的五个扩展使用 Qwen 自身保存的敏感设置，适用不同的运行限制。[ACE Music 对应源码版本](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387)
+
 **Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
 
 
