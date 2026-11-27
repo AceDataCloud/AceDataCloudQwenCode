@@ -1,5 +1,10 @@
 # Ace Data Cloud native extensions for Qwen Code
 
+Install any individual published entry using the full marketplace GitHub URL and extension name. For example, `qwen extensions install https://github.com/AceDataCloud/AceDataCloudQwenCode:google-search-by-ace-data-cloud`. Each catalog snapshot copies only the runtime files of the independently pinned release. `source-lock.json` records its commit and file hashes.
+
+
+The full URL selects the vendor marketplace. In Qwen Code 0.28.7 the short `marketplace-name:extension` spelling can be parsed as an npm package. Marketplace conversion preserves the tools and the QWEN.md file. For the original native sensitive-settings UI in older service extensions, use their direct Git installation; the marketplace converter does not import native `settings` declarations.
+
 ## Search, image editing, and speech
 
 These three native extensions start a pinned MCP package locally with `uvx`. Give each service its own application key as described in its linked repository. The first-use commands inspect local package information. Searches, image creation/editing, and speech synthesis incur charges when explicitly invoked.

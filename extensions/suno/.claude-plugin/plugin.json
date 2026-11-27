@@ -1,0 +1,21 @@
+{
+  "name": "suno-by-ace-data-cloud",
+  "version": "0.1.0-rc.1",
+  "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud.",
+  "mcpServers": {
+    "suno": {
+      "httpUrl": "https://suno.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer $ACE_SUNO_API_TOKEN"
+      },
+      "includeTools": [
+        "suno_list_models",
+        "suno_list_actions",
+        "suno_generate_music",
+        "suno_generate_custom_music",
+        "suno_get_task",
+        "suno_get_tasks_batch"
+      ]
+    }
+  }
+}

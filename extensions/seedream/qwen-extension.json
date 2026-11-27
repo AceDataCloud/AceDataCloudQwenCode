@@ -1,0 +1,26 @@
+{
+  "name": "seedream-by-ace-data-cloud",
+  "version": "0.1.0",
+  "displayName": "Seedream by Ace Data Cloud",
+  "description": "Create or edit Seedream images through Ace Data Cloud and check the original task ID. Inspect supported models and sizes locally.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "seedream": {
+      "command": "uvx",
+      "args": [
+        "mcp-seedream-pro==2026.11.27.0"
+      ],
+      "env": {
+        "ACEDATACLOUD_API_TOKEN": "${ACEDATACLOUD_SEEDREAM_TOKEN}"
+      },
+      "includeTools": [
+        "seedream_list_models",
+        "seedream_list_sizes",
+        "seedream_generate_image",
+        "seedream_edit_image",
+        "seedream_get_task",
+        "seedream_get_tasks_batch"
+      ]
+    }
+  }
+}

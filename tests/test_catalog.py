@@ -9,11 +9,11 @@ class CatalogTests(unittest.TestCase):
         entries = json.loads((ROOT/'.claude-plugin/marketplace.json').read_text())['plugins']
         self.assertIn("ace-music-by-ace-data-cloud", {x["name"] for x in entries})
         self.assertEqual(len({x['name'] for x in entries}), len(entries))
-        self.assertEqual(len({x['source']['url'] for x in entries}), len(entries))
+        self.assertEqual(len({x['source'] for x in entries}), len(entries))
         for item in entries:
             self.assertEqual(item['author']['name'], 'Ace Data Cloud')
-            self.assertTrue(item['source']['url'].endswith('.tar.gz'))
-            self.assertRegex(item['source']['url'], r'/archive/[a-f0-9]{40}[.]tar[.]gz$')
+            self.assertRegex(item['source'], r'^\./extensions/[a-z0-9-]+$')
+            self.assertTrue((ROOT / item['source'] / '.claude-plugin/plugin.json').is_file())
             self.assertTrue(item['keywords'])
             self.assertNotIn('installs', item)
             self.assertNotIn('downloads', item)
@@ -27,7 +27,7 @@ class CatalogTests(unittest.TestCase):
             repo = 'https://github.com/AceDataCloud/' + service['repo']
             self.assertEqual(entry['version'], service['version'])
             self.assertEqual(entry['homepage'], repo + '/tree/' + service['head'])
-            self.assertEqual(entry['source']['url'], repo + '/archive/' + service['head'] + '.tar.gz')
+            self.assertEqual(entry['source'], './extensions/' + service['slug'])
         gpt = next(x for x in services if x['repo'] == 'GPTImageQwenCode')
         self.assertEqual(gpt['transport'], 'stdio')
         self.assertEqual(gpt['profile'], 'gpt-image')

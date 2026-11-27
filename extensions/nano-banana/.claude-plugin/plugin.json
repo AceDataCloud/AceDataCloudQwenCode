@@ -1,0 +1,19 @@
+{
+  "name": "nano-banana-by-ace-data-cloud",
+  "version": "0.1.0-rc.1",
+  "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results.",
+  "mcpServers": {
+    "nano-banana": {
+      "httpUrl": "https://nanobanana.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer $ACE_NANO_BANANA_API_TOKEN"
+      },
+      "includeTools": [
+        "nanobanana_generate_image",
+        "nanobanana_edit_image",
+        "nanobanana_get_task",
+        "nanobanana_get_tasks_batch"
+      ]
+    }
+  }
+}

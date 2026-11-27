@@ -1,0 +1,32 @@
+{
+  "name": "happyhorse-by-ace-data-cloud",
+  "version": "0.1.0-rc.1",
+  "displayName": "HappyHorse by Ace Data Cloud",
+  "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "happyhorse": {
+      "httpUrl": "https://happyhorse.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer $ACE_HAPPYHORSE_API_TOKEN"
+      },
+      "includeTools": [
+        "happyhorse_list_models",
+        "happyhorse_generate_video",
+        "happyhorse_generate_video_from_image",
+        "happyhorse_generate_video_from_references",
+        "happyhorse_edit_video",
+        "happyhorse_get_task",
+        "happyhorse_get_tasks_batch"
+      ]
+    }
+  },
+  "settings": [
+    {
+      "name": "Ace Data Cloud API Token",
+      "description": "Paste your raw Ace API Token with HappyHorse access. Get it from https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=happyhorseqwencode_readme_api_key. Do not include Bearer. Source prerelease: use a synthetic placeholder until an official Qwen release with fix #14544 is verified.",
+      "envVar": "ACE_HAPPYHORSE_API_TOKEN",
+      "sensitive": true
+    }
+  ]
+}

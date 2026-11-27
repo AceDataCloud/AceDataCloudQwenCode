@@ -1,0 +1,26 @@
+{
+  "name": "google-search-by-ace-data-cloud",
+  "version": "0.1.0",
+  "displayName": "Google Search by Ace Data Cloud",
+  "description": "Search Google web, images, or news with Ace Data Cloud. Inspect supported search types locally before a billable lookup.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "serp": {
+      "command": "uvx",
+      "args": [
+        "mcp-serp==2026.11.27.1"
+      ],
+      "env": {
+        "ACEDATACLOUD_API_TOKEN": "${ACEDATACLOUD_SERP_TOKEN}"
+      },
+      "includeTools": [
+        "serp_list_search_types",
+        "serp_list_countries",
+        "serp_list_languages",
+        "serp_google_search",
+        "serp_google_images",
+        "serp_google_news"
+      ]
+    }
+  }
+}
