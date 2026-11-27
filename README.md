@@ -11,24 +11,24 @@ These three native extensions start a pinned MCP package locally with `uvx`. Giv
 
 | Service and source | Extension | Local first-use tool | Included tools |
 | --- | --- | --- | --- |
-| [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
-| [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
-| [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
+| <img src="extensions/serp/assets/icon.png" width="28" alt=""> [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
+| <img src="extensions/seedream/assets/icon.png" width="28" alt=""> [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
+| <img src="extensions/fish/assets/icon.png" width="28" alt=""> [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
 
-ACE Music uses a process-environment token injected through your secret manager. Qwen Code 0.28.3 was verified to install the extension and attach that token to MCP initialization against a loopback receiver. The historical native *stored setting* limitation below applies to the older five packages. [ACE Music extension at its catalog revision](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387)
+<img src="extensions/acemusic/_assets/icon.png" width="28" alt=""> ACE Music uses a process-environment token injected through your secret manager. Qwen Code 0.28.3 was verified to install the extension and attach that token to MCP initialization against a loopback receiver. The historical native *stored setting* limitation below applies to the older five packages. [ACE Music extension at its catalog revision](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/5f4793bcbdf7c0bf483669b3d88a4e2234341675)
 
 **Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
 
 
 Search by the service you need, and install only that extension. This is a supplementary source catalog, not an all-in-one plugin and not an official Qwen default marketplace. Each extension has its own source, sensitive credential prompt and review PR.
 
-**Catalog source prerelease `0.1.0-rc.2`:** GPT Image now pins its independent RC2 dedicated five-tool stdio release; the other four services retain RC1 and their unchanged immutable commits. It is a user-added source, not an official Qwen default market or authenticated-media general-availability release. The runtime gate below remains in force.
+The five media extensions that use native credential settings remain prereleases. Each pinned service README links to its release and describes the current Qwen runtime requirement.
 
 [简体中文](README_zh_Hans.md) · [Official Qwen source/discovery documentation](https://qwenlm.github.io/qwen-code-docs/en/users/extension/introduction/#managing-marketplace-sources)
 
 ## Credential storage and verified platform boundary
 
-**Wait for an official Qwen release containing [fix #14544](https://github.com/QwenLM/qwen-code/pull/14544) before using this extension with a real Token.** Qwen0.25.2 is the installation baseline, not a fixed authenticated-runtime version. No fixed release version has been verified yet.
+**Wait for an official Qwen release containing [fix #14544](https://github.com/QwenLM/qwen-code/pull/14544) before using one of these five stored-setting extensions with a real token.** Qwen0.25.2 is the installation baseline, not a fixed authenticated-runtime version. No fixed release version has been verified yet.
 
 A [validation-only fork run](https://github.com/AceDataCloud/qwen-code/actions/runs/39109190158) built the owning core package at the exact fix candidate and exercised saved settings through Qwen's real MCP transport to localhost, without forcing a backend:
 
@@ -57,15 +57,15 @@ Use the direct JSON URL above. Each entry points to an HTTPS immutable native ex
 
 | Service | Independent source | Merged source PR |
 |---|---|---|
-| Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08) | https://github.com/AceDataCloud/SunoQwenCode/pull/1 |
-| Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/edd900cde0d31b506f0ad300a0caf9350bb9358e) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/1 |
-| HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/36dfa83ba2dcf51ac2407f6773121ed37191ab5b) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1 |
-| GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/2 |
-| Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/eb29126040cb149b1d751242750fa19e446bb8f6) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1 |
+| <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/df497a690702c3045490fc9c5c5bdb23b425f9ed) | https://github.com/AceDataCloud/SunoQwenCode/pull/2 |
+| <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/c892d8a3ec475ee3471d40c4c45ef17a47fb96ef) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/2 |
+| <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/e7a6772bd2fd90206a15527fc74fa6b2873887a8) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2 |
+| <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/eff895087fd7546cd794012657c13f964b2607cd) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/3 |
+| <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/d1dda079c82debd3fb716dbd789092b28c0427a9) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2 |
 
-A normal direct install is `qwen extensions install AceDataCloud/<Service>QwenCode`; append `--ref v0.1.0-rc.2` for GPT Image or `--ref v0.1.0-rc.1` for the other four services. See each service README. On an unfixed official CLI, enter only a synthetic placeholder and do not invoke business tools.
+A normal direct install is `qwen extensions install AceDataCloud/<Service>QwenCode`; append `--ref <release-tag>` to install the pinned service version. On an unfixed official CLI, enter only a synthetic placeholder and do not invoke business tools.
 
-GPT Image RC2 requires **uv/uvx and Python 3.10+** and launches the existing published `mcp-openai-pro==2026.10.19.5 --profile gpt-image`. Its five `gpt_image_*` tools exclude the general OpenAI and retired Sora surface; it does not fall back to the general hosted URL. See the pinned service README for setup. This does not remove the official fixed-Qwen prerequisite.
+GPT Image requires **uv/uvx and Python 3.10+** and launches the existing published `mcp-openai-pro==2026.10.19.5 --profile gpt-image`. Its five `gpt_image_*` tools exclude the general OpenAI and retired Sora surface; it does not fall back to the general hosted URL. See the pinned service README for setup. This does not remove the official fixed-Qwen prerequisite.
 
 ## Register / API Token / first result
 
