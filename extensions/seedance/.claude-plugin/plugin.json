@@ -1,0 +1,22 @@
+{
+  "name": "seedance-by-ace-data-cloud",
+  "version": "0.1.0-rc.1",
+  "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud.",
+  "mcpServers": {
+    "seedance": {
+      "httpUrl": "https://seedance.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer $ACE_SEEDANCE_API_TOKEN"
+      },
+      "includeTools": [
+        "seedance_list_models",
+        "seedance_list_resolutions",
+        "seedance_list_actions",
+        "seedance_generate_video",
+        "seedance_generate_video_from_image",
+        "seedance_get_task",
+        "seedance_get_tasks_batch"
+      ]
+    }
+  }
+}

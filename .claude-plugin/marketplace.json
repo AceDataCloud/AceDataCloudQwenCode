@@ -18,10 +18,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/SunoQwenCode/archive/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08.tar.gz"
-      },
+      "source": "./extensions/suno",
       "category": "music",
       "keywords": [
         "suno",
@@ -41,10 +38,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/edd900cde0d31b506f0ad300a0caf9350bb9358e",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/SeedanceQwenCode/archive/edd900cde0d31b506f0ad300a0caf9350bb9358e.tar.gz"
-      },
+      "source": "./extensions/seedance",
       "category": "video",
       "keywords": [
         "seedance",
@@ -64,10 +58,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/36dfa83ba2dcf51ac2407f6773121ed37191ab5b",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/HappyHorseQwenCode/archive/36dfa83ba2dcf51ac2407f6773121ed37191ab5b.tar.gz"
-      },
+      "source": "./extensions/happyhorse",
       "category": "video",
       "keywords": [
         "happyhorse",
@@ -87,10 +78,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/GPTImageQwenCode/archive/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3.tar.gz"
-      },
+      "source": "./extensions/gpt-image",
       "category": "images",
       "keywords": [
         "gpt image",
@@ -110,10 +98,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/eb29126040cb149b1d751242750fa19e446bb8f6",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/NanoBananaQwenCode/archive/eb29126040cb149b1d751242750fa19e446bb8f6.tar.gz"
-      },
+      "source": "./extensions/nano-banana",
       "category": "images",
       "keywords": [
         "nano banana",
@@ -133,10 +118,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/ACEMusicQwenCode/archive/871341e04f961a09c51f12657c4b2f0e541e1387.tar.gz"
-      },
+      "source": "./extensions/acemusic",
       "category": "music",
       "keywords": [
         "ace-music",
@@ -155,10 +137,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/SerpQwenCode/archive/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b.tar.gz"
-      },
+      "source": "./extensions/serp",
       "category": "search",
       "keywords": [
         "google",
@@ -176,10 +155,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/SeedreamQwenCode/archive/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf.tar.gz"
-      },
+      "source": "./extensions/seedream",
       "category": "image",
       "keywords": [
         "seedream",
@@ -197,10 +173,7 @@
         "email": "dev@acedata.cloud"
       },
       "homepage": "https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/AceDataCloud/FishAudioQwenCode/archive/f7af62678249c1e7d27fb9c0e0ae23845550fc34.tar.gz"
-      },
+      "source": "./extensions/fish",
       "category": "audio",
       "keywords": [
         "fish",

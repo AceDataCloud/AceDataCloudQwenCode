@@ -1,0 +1,28 @@
+{
+  "name": "ace-music-by-ace-data-cloud",
+  "version": "0.1.0",
+  "displayName": "ACE Music by Ace Data Cloud",
+  "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "acemusic": {
+      "httpUrl": "https://acemusic.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer $ACEDATACLOUD_ACEMUSIC_TOKEN"
+      },
+      "includeTools": [
+        "acemusic_list_models",
+        "acemusic_get_capabilities",
+        "acemusic_generate_music",
+        "acemusic_generate_custom_music",
+        "acemusic_generate_lyrics",
+        "acemusic_upload_audio",
+        "acemusic_cover_audio",
+        "acemusic_mashup_audio",
+        "acemusic_get_task",
+        "acemusic_get_tasks_batch",
+        "acemusic_list_tasks"
+      ]
+    }
+  }
+}

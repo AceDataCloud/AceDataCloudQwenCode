@@ -1,0 +1,29 @@
+{
+  "name": "nano-banana-by-ace-data-cloud",
+  "version": "0.1.0-rc.1",
+  "displayName": "Nano Banana by Ace Data Cloud",
+  "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "nano-banana": {
+      "httpUrl": "https://nanobanana.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer $ACE_NANO_BANANA_API_TOKEN"
+      },
+      "includeTools": [
+        "nanobanana_generate_image",
+        "nanobanana_edit_image",
+        "nanobanana_get_task",
+        "nanobanana_get_tasks_batch"
+      ]
+    }
+  },
+  "settings": [
+    {
+      "name": "Ace Data Cloud API Token",
+      "description": "Paste your raw Ace API Token with Nano Banana access. Get it from https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=nanobananaqwencode_readme_api_key. Do not include Bearer. Source prerelease: use a synthetic placeholder until an official Qwen release with fix #14544 is verified.",
+      "envVar": "ACE_NANO_BANANA_API_TOKEN",
+      "sensitive": true
+    }
+  ]
+}

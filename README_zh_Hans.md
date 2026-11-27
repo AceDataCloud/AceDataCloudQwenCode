@@ -1,5 +1,10 @@
 # Qwen Code：Ace 独立品牌扩展目录
 
+使用厂商市场仓库的完整 GitHub URL 和扩展名安装单个条目，例如 `qwen extensions install https://github.com/AceDataCloud/AceDataCloudQwenCode:google-search-by-ace-data-cloud`。目录快照仅复用独立扩展已固定提交中的运行文件，`source-lock.json` 记录提交及文件校验和。
+
+
+使用完整 URL 指定厂商市场。Qwen Code 0.28.7 可能把仅含市场别名的写法当作 npm 包。转换后的安装保留工具及 QWEN.md；较早的扩展若需原生敏感设置界面，请直接从其 Git 仓库安装，市场转换不会导入原生 `settings` 声明。
+
 ## 搜索、图像编辑和语音
 
 以下 3 项原生扩展通过 `uvx` 启动固定版本的 MCP 包。每个服务可设置独立的应用密钥，详见对应仓库。首次使用命令只读取本地能力说明。显式调用网络搜索、图像生成或编辑、语音合成时按服务计费。

@@ -1,0 +1,32 @@
+{
+  "name": "seedance-by-ace-data-cloud",
+  "version": "0.1.0-rc.1",
+  "displayName": "Seedance by Ace Data Cloud",
+  "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "seedance": {
+      "httpUrl": "https://seedance.mcp.acedata.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer $ACE_SEEDANCE_API_TOKEN"
+      },
+      "includeTools": [
+        "seedance_list_models",
+        "seedance_list_resolutions",
+        "seedance_list_actions",
+        "seedance_generate_video",
+        "seedance_generate_video_from_image",
+        "seedance_get_task",
+        "seedance_get_tasks_batch"
+      ]
+    }
+  },
+  "settings": [
+    {
+      "name": "Ace Data Cloud API Token",
+      "description": "Paste your raw Ace API Token with Seedance access. Get it from https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=seedanceqwencode_readme_api_key. Do not include Bearer. Source prerelease: use a synthetic placeholder until an official Qwen release with fix #14544 is verified.",
+      "envVar": "ACE_SEEDANCE_API_TOKEN",
+      "sensitive": true
+    }
+  ]
+}
