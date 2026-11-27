@@ -31,14 +31,14 @@
       "songs"
     ],
     "dify": "SunoDify",
-    "icon": "icon.jpg",
+    "icon": "https://github.com/AceDataCloud/SunoQwenCode/blob/df497a690702c3045490fc9c5c5bdb23b425f9ed/_assets/icon.jpg",
     "env": "ACE_SUNO_API_TOKEN",
     "name": "suno-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "2a46582fd0bdec3ca3ab81b9037e399fa5a19c08",
-    "pr": "https://github.com/AceDataCloud/SunoQwenCode/pull/1",
-    "version": "0.1.0-rc.1",
-    "release": "https://github.com/AceDataCloud/SunoQwenCode/releases/tag/v0.1.0-rc.1"
+    "head": "df497a690702c3045490fc9c5c5bdb23b425f9ed",
+    "pr": "https://github.com/AceDataCloud/SunoQwenCode/pull/2",
+    "version": "0.1.0-rc.2",
+    "release": "https://github.com/AceDataCloud/SunoQwenCode/releases/tag/v0.1.0-rc.2"
   },
   {
     "repo": "SeedanceQwenCode",
@@ -73,14 +73,14 @@
       "image-to-video"
     ],
     "dify": "SeedanceDify",
-    "icon": "icon.png",
+    "icon": "https://github.com/AceDataCloud/SeedanceQwenCode/blob/c892d8a3ec475ee3471d40c4c45ef17a47fb96ef/_assets/icon.png",
     "env": "ACE_SEEDANCE_API_TOKEN",
     "name": "seedance-by-ace-data-cloud",
     "icon_path": "_assets/icon.png",
-    "head": "edd900cde0d31b506f0ad300a0caf9350bb9358e",
-    "pr": "https://github.com/AceDataCloud/SeedanceQwenCode/pull/1",
-    "version": "0.1.0-rc.1",
-    "release": "https://github.com/AceDataCloud/SeedanceQwenCode/releases/tag/v0.1.0-rc.1"
+    "head": "c892d8a3ec475ee3471d40c4c45ef17a47fb96ef",
+    "pr": "https://github.com/AceDataCloud/SeedanceQwenCode/pull/2",
+    "version": "0.1.0-rc.2",
+    "release": "https://github.com/AceDataCloud/SeedanceQwenCode/releases/tag/v0.1.0-rc.2"
   },
   {
     "repo": "HappyHorseQwenCode",
@@ -115,14 +115,14 @@
       "video-editing"
     ],
     "dify": "HappyHorseDify",
-    "icon": "icon.jpg",
+    "icon": "https://github.com/AceDataCloud/HappyHorseQwenCode/blob/e7a6772bd2fd90206a15527fc74fa6b2873887a8/_assets/icon.jpg",
     "env": "ACE_HAPPYHORSE_API_TOKEN",
     "name": "happyhorse-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "36dfa83ba2dcf51ac2407f6773121ed37191ab5b",
-    "pr": "https://github.com/AceDataCloud/HappyHorseQwenCode/pull/1",
-    "version": "0.1.0-rc.1",
-    "release": "https://github.com/AceDataCloud/HappyHorseQwenCode/releases/tag/v0.1.0-rc.1"
+    "head": "e7a6772bd2fd90206a15527fc74fa6b2873887a8",
+    "pr": "https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2",
+    "version": "0.1.0-rc.2",
+    "release": "https://github.com/AceDataCloud/HappyHorseQwenCode/releases/tag/v0.1.0-rc.2"
   },
   {
     "repo": "GPTImageQwenCode",
@@ -156,14 +156,14 @@
       "image-editing"
     ],
     "dify": null,
-    "icon": null,
+    "icon": "https://github.com/AceDataCloud/GPTImageQwenCode/blob/eff895087fd7546cd794012657c13f964b2607cd/_assets/icon.png",
     "env": "ACE_GPT_IMAGE_API_TOKEN",
     "name": "gpt-image-by-ace-data-cloud",
-    "icon_path": null,
-    "head": "dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3",
-    "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/2",
-    "version": "0.1.0-rc.2",
-    "release": "https://github.com/AceDataCloud/GPTImageQwenCode/releases/tag/v0.1.0-rc.2",
+    "icon_path": "_assets/icon.png",
+    "head": "eff895087fd7546cd794012657c13f964b2607cd",
+    "pr": "https://github.com/AceDataCloud/GPTImageQwenCode/pull/3",
+    "version": "0.1.0-rc.3",
+    "release": "https://github.com/AceDataCloud/GPTImageQwenCode/releases/tag/v0.1.0-rc.3",
     "transport": "stdio",
     "profile": "gpt-image",
     "package_version": "2026.10.19.5"
@@ -198,14 +198,14 @@
       "image-editing"
     ],
     "dify": "NanoBananaDify",
-    "icon": "icon.jpg",
+    "icon": "https://github.com/AceDataCloud/NanoBananaQwenCode/blob/d1dda079c82debd3fb716dbd789092b28c0427a9/_assets/icon.jpg",
     "env": "ACE_NANO_BANANA_API_TOKEN",
     "name": "nano-banana-by-ace-data-cloud",
     "icon_path": "_assets/icon.jpg",
-    "head": "eb29126040cb149b1d751242750fa19e446bb8f6",
-    "pr": "https://github.com/AceDataCloud/NanoBananaQwenCode/pull/1",
-    "version": "0.1.0-rc.1",
-    "release": "https://github.com/AceDataCloud/NanoBananaQwenCode/releases/tag/v0.1.0-rc.1"
+    "head": "d1dda079c82debd3fb716dbd789092b28c0427a9",
+    "pr": "https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2",
+    "version": "0.1.0-rc.2",
+    "release": "https://github.com/AceDataCloud/NanoBananaQwenCode/releases/tag/v0.1.0-rc.2"
   },
   {
     "repo": "ACEMusicQwenCode",
@@ -247,11 +247,13 @@
     ],
     "env": "ACEDATACLOUD_ACEMUSIC_TOKEN",
     "name": "ace-music-by-ace-data-cloud",
-    "head": "871341e04f961a09c51f12657c4b2f0e541e1387",
-    "pr": "https://github.com/AceDataCloud/ACEMusicQwenCode/pull/1",
-    "version": "0.1.0",
-    "release": null,
-    "transport": "http"
+    "head": "5f4793bcbdf7c0bf483669b3d88a4e2234341675",
+    "pr": "https://github.com/AceDataCloud/ACEMusicQwenCode/pull/2",
+    "version": "0.1.1",
+    "release": "https://github.com/AceDataCloud/ACEMusicQwenCode/releases/tag/v0.1.1",
+    "transport": "http",
+    "icon_path": "_assets/icon.png",
+    "icon": "https://github.com/AceDataCloud/ACEMusicQwenCode/blob/5f4793bcbdf7c0bf483669b3d88a4e2234341675/_assets/icon.png"
   },
   {
     "repo": "SerpQwenCode",
@@ -288,7 +290,8 @@
     "version": "0.1.0",
     "release": "https://github.com/AceDataCloud/SerpQwenCode/releases/tag/v0.1.0",
     "transport": "stdio",
-    "icon": "https://github.com/AceDataCloud/SerpQwenCode/blob/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b/assets/icon.png"
+    "icon": "https://github.com/AceDataCloud/SerpQwenCode/blob/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b/assets/icon.png",
+    "icon_path": "assets/icon.png"
   },
   {
     "repo": "SeedreamQwenCode",
@@ -326,7 +329,8 @@
     "version": "0.1.0",
     "release": "https://github.com/AceDataCloud/SeedreamQwenCode/releases/tag/v0.1.0",
     "transport": "stdio",
-    "icon": "https://github.com/AceDataCloud/SeedreamQwenCode/blob/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf/assets/icon.png"
+    "icon": "https://github.com/AceDataCloud/SeedreamQwenCode/blob/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf/assets/icon.png",
+    "icon_path": "assets/icon.png"
   },
   {
     "repo": "FishAudioQwenCode",
@@ -362,6 +366,7 @@
     "version": "0.1.0",
     "release": "https://github.com/AceDataCloud/FishAudioQwenCode/releases/tag/v0.1.0",
     "transport": "stdio",
-    "icon": "https://github.com/AceDataCloud/FishAudioQwenCode/blob/f7af62678249c1e7d27fb9c0e0ae23845550fc34/assets/icon.png"
+    "icon": "https://github.com/AceDataCloud/FishAudioQwenCode/blob/f7af62678249c1e7d27fb9c0e0ae23845550fc34/assets/icon.png",
+    "icon_path": "assets/icon.png"
   }
 ]

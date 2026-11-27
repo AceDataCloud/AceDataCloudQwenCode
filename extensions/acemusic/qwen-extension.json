@@ -1,6 +1,6 @@
 {
   "name": "ace-music-by-ace-data-cloud",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "ACE Music by Ace Data Cloud",
   "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
   "contextFileName": "QWEN.md",

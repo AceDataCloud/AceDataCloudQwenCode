@@ -6,18 +6,18 @@
   },
   "metadata": {
     "description": "Independent native Qwen service extensions from Ace Data Cloud. Add this source to discover and install individual services.",
-    "version": "0.1.0-rc.2"
+    "version": "0.2.2"
   },
   "plugins": [
     {
       "name": "suno-by-ace-data-cloud",
       "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.1",
+      "version": "0.1.0-rc.2",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/2a46582fd0bdec3ca3ab81b9037e399fa5a19c08",
+      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/df497a690702c3045490fc9c5c5bdb23b425f9ed",
       "source": "./extensions/suno",
       "category": "music",
       "keywords": [
@@ -32,12 +32,12 @@
     {
       "name": "seedance-by-ace-data-cloud",
       "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.1",
+      "version": "0.1.0-rc.2",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/edd900cde0d31b506f0ad300a0caf9350bb9358e",
+      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/c892d8a3ec475ee3471d40c4c45ef17a47fb96ef",
       "source": "./extensions/seedance",
       "category": "video",
       "keywords": [
@@ -52,12 +52,12 @@
     {
       "name": "happyhorse-by-ace-data-cloud",
       "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.1",
+      "version": "0.1.0-rc.2",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/36dfa83ba2dcf51ac2407f6773121ed37191ab5b",
+      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/e7a6772bd2fd90206a15527fc74fa6b2873887a8",
       "source": "./extensions/happyhorse",
       "category": "video",
       "keywords": [
@@ -72,12 +72,12 @@
     {
       "name": "gpt-image-by-ace-data-cloud",
       "description": "GPT Image generation, editing and task retrieval through Ace Data Cloud. Dedicated five-tool stdio profile; requires uv/uvx and Python 3.10+. Source RC: official Qwen fix #14544 remains unreleased; synthetic setup only.",
-      "version": "0.1.0-rc.2",
+      "version": "0.1.0-rc.3",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/dc18d2ddd2bb95da28ba49f2efe34e0ef836bee3",
+      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/eff895087fd7546cd794012657c13f964b2607cd",
       "source": "./extensions/gpt-image",
       "category": "images",
       "keywords": [
@@ -92,12 +92,12 @@
     {
       "name": "nano-banana-by-ace-data-cloud",
       "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.1",
+      "version": "0.1.0-rc.2",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/eb29126040cb149b1d751242750fa19e446bb8f6",
+      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/d1dda079c82debd3fb716dbd789092b28c0427a9",
       "source": "./extensions/nano-banana",
       "category": "images",
       "keywords": [
@@ -112,12 +112,12 @@
     {
       "name": "ace-music-by-ace-data-cloud",
       "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387",
+      "homepage": "https://github.com/AceDataCloud/ACEMusicQwenCode/tree/5f4793bcbdf7c0bf483669b3d88a4e2234341675",
       "source": "./extensions/acemusic",
       "category": "music",
       "keywords": [
