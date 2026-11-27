@@ -145,6 +145,69 @@
         "audio",
         "lyrics"
       ]
+    },
+    {
+      "name": "google-search-by-ace-data-cloud",
+      "description": "Search Google web, images, or news with Ace Data Cloud. Inspect supported search types locally before a billable lookup.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/SerpQwenCode/archive/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b.tar.gz"
+      },
+      "category": "search",
+      "keywords": [
+        "google",
+        "search",
+        "web",
+        "serp"
+      ]
+    },
+    {
+      "name": "seedream-by-ace-data-cloud",
+      "description": "Create or edit Seedream images through Ace Data Cloud and check the original task ID. Inspect supported models and sizes locally.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/SeedreamQwenCode/archive/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf.tar.gz"
+      },
+      "category": "image",
+      "keywords": [
+        "seedream",
+        "image",
+        "generate",
+        "edit"
+      ]
+    },
+    {
+      "name": "fish-audio-by-ace-data-cloud",
+      "description": "Generate speech with Fish Audio through Ace Data Cloud and check an existing task. Read the local usage guide before synthesis.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AceDataCloud/FishAudioQwenCode/archive/f7af62678249c1e7d27fb9c0e0ae23845550fc34.tar.gz"
+      },
+      "category": "audio",
+      "keywords": [
+        "fish",
+        "speech",
+        "audio",
+        "tts"
+      ]
     }
   ]
 }

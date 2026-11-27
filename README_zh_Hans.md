@@ -1,5 +1,15 @@
 # Qwen Code：Ace 独立品牌扩展目录
 
+## 搜索、图像编辑和语音
+
+以下 3 项原生扩展通过 `uvx` 启动固定版本的 MCP 包。每个服务可设置独立的应用密钥，详见对应仓库。首次使用命令只读取本地能力说明。显式调用网络搜索、图像生成或编辑、语音合成时按服务计费。
+
+| 服务及源码 | 扩展 ID | 本地首次检查工具 | 工具数 |
+| --- | --- | --- | --- |
+| [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
+| [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
+| [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
+
 ACE Music 扩展从 Qwen 进程的环境变量读取服务 Key。使用 Qwen Code 0.28.3 验证了原生安装及本地 MCP 初始化时的请求头。下文较早的五个扩展使用 Qwen 自身保存的敏感设置，适用不同的运行限制。[ACE Music 对应源码版本](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387)
 
 **Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
@@ -21,7 +31,7 @@ qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDa
 
 GPT Image RC2 需要 **uv/uvx 与 Python 3.10+**，复用已发布 `mcp-openai-pro==2026.10.19.5 --profile gpt-image`。五项 `gpt_image_*` 工具不暴露通用 OpenAI 或退役 Sora，不回退通用托管 URL；详见固定服务教程。直接安装 GPT Image 时使用 `--ref v0.1.0-rc.2`，其余四项仍为 `--ref v0.1.0-rc.1`。官方含修复 Qwen 的前提不变。
 
-注册/登录 [Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_api_key)，初始化或打开 **General application**，复制 API Key，或 Manage Keys → Create 创建独立 Token。核对服务权限、有效期、Allowed APIs、当前余额与价格；待官方修复版核验后，在 Qwen 扩展的 **Ace Data Cloud API Token** 隐藏提示框粘贴真实值；当前仅合成占位值，不写进聊天或命令参数。
+注册/登录 [Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen)，初始化或打开 **General application**，复制 API Key，或 Manage Keys → Create 创建独立 Token。核对服务权限、有效期、Allowed APIs、当前余额与价格；待官方修复版核验后，在 Qwen 扩展的 **Ace Data Cloud API Token** 隐藏提示框粘贴真实值；当前仅合成占位值，不写进聊天或命令参数。
 
 ![真实应用页取 Key](_assets/tutorial/get-api-key-en.png)
 

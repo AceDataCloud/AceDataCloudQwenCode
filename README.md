@@ -1,5 +1,15 @@
 # Ace Data Cloud native extensions for Qwen Code
 
+## Search, image editing, and speech
+
+These three native extensions start a pinned MCP package locally with `uvx`. Give each service its own application key as described in its linked repository. The first-use commands inspect local package information. Searches, image creation/editing, and speech synthesis incur charges when explicitly invoked.
+
+| Service and source | Extension | Local first-use tool | Included tools |
+| --- | --- | --- | --- |
+| [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
+| [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
+| [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
+
 ACE Music uses a process-environment token injected through your secret manager. Qwen Code 0.28.3 was verified to install the extension and attach that token to MCP initialization against a loopback receiver. The historical native *stored setting* limitation below applies to the older five packages. [ACE Music extension at its catalog revision](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/871341e04f961a09c51f12657c4b2f0e541e1387)
 
 **Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
@@ -54,7 +64,7 @@ GPT Image RC2 requires **uv/uvx and Python 3.10+** and launches the existing pub
 
 ## Register / API Token / first result
 
-[Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_api_key). Open **General application**, or initialize it, then copy or create a dedicated Token with the chosen service's permissions. Review [current prices and balance](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=qwencode_catalog_readme_pricing). After a fixed official CLI is verified, paste the raw Token into the native extension's hidden **Ace Data Cloud API Token** prompt; never into chat, exported manifests or command arguments.
+[Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen). Open **General application**, or initialize it, then copy or create a dedicated Token with the chosen service's permissions. Review [current prices and balance](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen). After a fixed official CLI is verified, paste the raw Token into the native extension's hidden **Ace Data Cloud API Token** prompt; never into chat, exported manifests or command arguments.
 
 ![Actual Ace Key controls](_assets/tutorial/get-api-key-en.png)
 
