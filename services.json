@@ -252,5 +252,116 @@
     "version": "0.1.0",
     "release": null,
     "transport": "http"
+  },
+  {
+    "repo": "SerpQwenCode",
+    "slug": "serp",
+    "brand": "Google Search",
+    "description": "Search Google web, images, or news with Ace Data Cloud. Inspect supported search types locally before a billable lookup.",
+    "cn": "Google 搜索",
+    "endpoint": "serp",
+    "mcp_repo": "SerpMCP",
+    "package": "mcp-serp",
+    "package_version": "2026.11.27.1",
+    "tools": [
+      "serp_list_search_types",
+      "serp_list_countries",
+      "serp_list_languages",
+      "serp_google_search",
+      "serp_google_images",
+      "serp_google_news"
+    ],
+    "info": "serp_list_search_types",
+    "api": [
+      "/serp/google"
+    ],
+    "keywords": [
+      "google",
+      "search",
+      "web",
+      "serp"
+    ],
+    "env": "ACEDATACLOUD_SERP_TOKEN",
+    "name": "google-search-by-ace-data-cloud",
+    "head": "bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b",
+    "pr": "https://github.com/AceDataCloud/SerpQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": "https://github.com/AceDataCloud/SerpQwenCode/releases/tag/v0.1.0",
+    "transport": "stdio",
+    "icon": "https://github.com/AceDataCloud/SerpQwenCode/blob/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b/assets/icon.png"
+  },
+  {
+    "repo": "SeedreamQwenCode",
+    "slug": "seedream",
+    "brand": "Seedream",
+    "description": "Create or edit Seedream images through Ace Data Cloud and check the original task ID. Inspect supported models and sizes locally.",
+    "cn": "Seedream 图像",
+    "endpoint": "seedream",
+    "mcp_repo": "SeedreamMCP",
+    "package": "mcp-seedream-pro",
+    "package_version": "2026.11.27.0",
+    "tools": [
+      "seedream_list_models",
+      "seedream_list_sizes",
+      "seedream_generate_image",
+      "seedream_edit_image",
+      "seedream_get_task",
+      "seedream_get_tasks_batch"
+    ],
+    "info": "seedream_list_models",
+    "api": [
+      "/seedream/images",
+      "/seedream/tasks"
+    ],
+    "keywords": [
+      "seedream",
+      "image",
+      "generate",
+      "edit"
+    ],
+    "env": "ACEDATACLOUD_SEEDREAM_TOKEN",
+    "name": "seedream-by-ace-data-cloud",
+    "head": "ab9e213fb2898b13b4ba9b8bc1d15230406eafcf",
+    "pr": "https://github.com/AceDataCloud/SeedreamQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": "https://github.com/AceDataCloud/SeedreamQwenCode/releases/tag/v0.1.0",
+    "transport": "stdio",
+    "icon": "https://github.com/AceDataCloud/SeedreamQwenCode/blob/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf/assets/icon.png"
+  },
+  {
+    "repo": "FishAudioQwenCode",
+    "slug": "fish",
+    "brand": "Fish Audio",
+    "description": "Generate speech with Fish Audio through Ace Data Cloud and check an existing task. Read the local usage guide before synthesis.",
+    "cn": "Fish Audio 语音",
+    "endpoint": "fish",
+    "mcp_repo": "FishMCP",
+    "package": "mcp-fish",
+    "package_version": "2026.11.27.0",
+    "tools": [
+      "fish_get_usage_guide",
+      "fish_generate_audio",
+      "fish_get_task",
+      "fish_get_tasks_batch"
+    ],
+    "info": "fish_get_usage_guide",
+    "api": [
+      "/fish/tts",
+      "/fish/tasks"
+    ],
+    "keywords": [
+      "fish",
+      "speech",
+      "audio",
+      "tts"
+    ],
+    "env": "ACEDATACLOUD_FISH_TOKEN",
+    "name": "fish-audio-by-ace-data-cloud",
+    "head": "f7af62678249c1e7d27fb9c0e0ae23845550fc34",
+    "pr": "https://github.com/AceDataCloud/FishAudioQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": "https://github.com/AceDataCloud/FishAudioQwenCode/releases/tag/v0.1.0",
+    "transport": "stdio",
+    "icon": "https://github.com/AceDataCloud/FishAudioQwenCode/blob/f7af62678249c1e7d27fb9c0e0ae23845550fc34/assets/icon.png"
   }
 ]
