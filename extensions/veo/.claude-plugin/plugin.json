@@ -1,0 +1,24 @@
+{
+  "name": "veo",
+  "version": "0.1.0",
+  "description": "Create a Veo video from text or reference frames, then check the original task for the result. The Ace Data Cloud integration bills video requests to your account.",
+  "mcpServers": {
+    "veo": {
+      "command": "uvx",
+      "args": [
+        "mcp-veo==2026.11.27.0"
+      ],
+      "env": {
+        "ACEDATACLOUD_API_TOKEN": "${ACEDATACLOUD_VEO_TOKEN}"
+      },
+      "includeTools": [
+        "veo_list_models",
+        "veo_get_prompt_guide",
+        "veo_text_to_video",
+        "veo_image_to_video",
+        "veo_get_task",
+        "veo_get_tasks_batch"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "kling",
+  "version": "0.1.0",
+  "displayName": "Kling",
+  "description": "Create a Kling video from text or an image and retrieve the finished clip using its task ID. The Ace Data Cloud integration bills video requests to your account.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "kling": {
+      "command": "uvx",
+      "args": [
+        "mcp-kling==2026.11.27.0"
+      ],
+      "env": {
+        "ACEDATACLOUD_API_TOKEN": "${ACEDATACLOUD_KLING_TOKEN}"
+      },
+      "includeTools": [
+        "kling_list_models",
+        "kling_list_actions",
+        "kling_generate_video",
+        "kling_generate_video_from_image",
+        "kling_get_task",
+        "kling_get_tasks_batch"
+      ]
+    }
+  }
+}

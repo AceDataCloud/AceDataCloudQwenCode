@@ -7,6 +7,15 @@ Qwen Code 0.28.7 shows the installation ID in its extension list. For example, t
 
 The full URL selects the vendor marketplace. In Qwen Code 0.28.7 the short `marketplace-name:extension` spelling can be parsed as an npm package. Marketplace conversion preserves the tools and the QWEN.md file. For the original native sensitive-settings UI in older service extensions, use their direct Git installation; the marketplace converter does not import native `settings` declarations.
 
+## Kling and Veo video tools
+
+Install either extension on its own. Start with the local model guide and check pricing before submitting a video.
+
+| Product and setup guide | Install ID | Local model guide |
+| --- | --- | --- |
+| <img src="extensions/kling/assets/icon.png" width="28" alt=""> [Kling](https://github.com/AceDataCloud/KlingQwenCode/blob/8971d23e186de72d198afb8cbbcd5a6098c47c65/README.md) | `kling` | `kling_list_models` |
+| <img src="extensions/veo/assets/icon.png" width="28" alt=""> [Veo](https://github.com/AceDataCloud/VeoQwenCode/blob/07861206ace0314af3ef5e73ea77bee7356868e4/README.md) | `veo` | `veo_list_models` |
+
 ## Search, image editing, and speech
 
 These three native extensions start a pinned MCP package locally with `uvx`. Give each service its own application key as described in its linked repository. The first-use commands inspect local package information. Searches, image creation/editing, and speech synthesis incur charges when explicitly invoked.

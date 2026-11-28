@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Independent native Qwen service extensions from Ace Data Cloud. Add this source to discover and install individual services.",
-    "version": "0.2.3"
+    "version": "0.3.0"
   },
   "plugins": [
     {
@@ -180,6 +180,42 @@
         "speech",
         "audio",
         "tts"
+      ]
+    },
+    {
+      "name": "kling",
+      "description": "Create a Kling video from text or an image and retrieve the finished clip using its task ID. The Ace Data Cloud integration bills video requests to your account.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/KlingQwenCode/tree/8971d23e186de72d198afb8cbbcd5a6098c47c65",
+      "source": "./extensions/kling",
+      "category": "video",
+      "keywords": [
+        "kling",
+        "video",
+        "text-to-video",
+        "image-to-video"
+      ]
+    },
+    {
+      "name": "veo",
+      "description": "Create a Veo video from text or reference frames, then check the original task for the result. The Ace Data Cloud integration bills video requests to your account.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/VeoQwenCode/tree/07861206ace0314af3ef5e73ea77bee7356868e4",
+      "source": "./extensions/veo",
+      "category": "video",
+      "keywords": [
+        "veo",
+        "video",
+        "text-to-video",
+        "image-to-video"
       ]
     }
   ]

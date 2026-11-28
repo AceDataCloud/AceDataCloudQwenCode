@@ -61,6 +61,19 @@
     },
     "repo": "AceDataCloud/HappyHorseQwenCode"
   },
+  "kling": {
+    "commit": "8971d23e186de72d198afb8cbbcd5a6098c47c65",
+    "files": {
+      "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+      "QWEN.md": "43763c9e4cc7b5d2f784229254b0785bb79edfc62ce899e57a3ec5fece64ef3c",
+      "README.md": "425ad28e7929a7e7eb77655908fd1a4d48305f6e176c5c8acd7b78cf17e621dd",
+      "assets/icon.png": "ecb37ff2263637f921a5016a5bd6ced8ae768ba2e62198adc98bb62d2da74205",
+      "commands/first-use.md": "bb38a205434f54e3493b047e97427eb6e067f06a1a1bf586be4b270d03e3f782",
+      "qwen-extension.json": "d860aed23c226c3774297c6e844a40c553e4c49b0c0b259ce3610aace6d6ae31",
+      "readme/README_zh_Hans.md": "e5ac3d99b8c2e822a1fdc3e5a2ac2f48924dec5ce0477e0b92bc4d81b068c4de"
+    },
+    "repo": "AceDataCloud/KlingQwenCode"
+  },
   "nano-banana": {
     "commit": "e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe",
     "files": {
@@ -138,5 +151,18 @@
       "readme/README_zh_Hans.md": "86935b408bc398c0b67218fe0a6b2803d37c5094eba28db7ee047d243f49cc59"
     },
     "repo": "AceDataCloud/SunoQwenCode"
+  },
+  "veo": {
+    "commit": "07861206ace0314af3ef5e73ea77bee7356868e4",
+    "files": {
+      "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+      "QWEN.md": "22fcb2fc4290a48762e2e690d7601967b9543804229bf02b15f5cde59844ec41",
+      "README.md": "d1abdcf5176ac3ea038371571fe0315c10827d6c457026e6a3b92301fa1c3ece",
+      "assets/icon.png": "979759a9f32385645c987909628b56fb2aab658f04d0bd98c266d85b60e8b01c",
+      "commands/first-use.md": "a754c2e21a2ca105c44e1bbe9ce17f2b20c8c1127c4c935936d2851b3636f437",
+      "qwen-extension.json": "bff69b5b35d7293e8a6d1b94cb057d0dd072dc9433f5e5036ab6bfb47760d678",
+      "readme/README_zh_Hans.md": "cd93f818d85e5401f3e81477976613acf1dab2a73aa3769e7f34f03f6cd94aab"
+    },
+    "repo": "AceDataCloud/VeoQwenCode"
   }
 }

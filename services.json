@@ -368,5 +368,83 @@
     "transport": "stdio",
     "icon": "https://github.com/AceDataCloud/FishAudioQwenCode/blob/d5b5c31ea735538940d105ff2f1f6fc7555465be/assets/icon.png",
     "icon_path": "assets/icon.png"
+  },
+  {
+    "repo": "KlingQwenCode",
+    "slug": "kling",
+    "brand": "Kling",
+    "description": "Create a Kling video from text or an image and retrieve the finished clip using its task ID. The Ace Data Cloud integration bills video requests to your account.",
+    "cn": "用 Kling 将文字或参考图生成视频，并通过原任务 ID 查询结果。",
+    "endpoint": "kling",
+    "mcp_repo": "KlingMCP",
+    "package": "mcp-kling",
+    "package_version": "2026.11.27.0",
+    "tools": [
+      "kling_list_models",
+      "kling_list_actions",
+      "kling_generate_video",
+      "kling_generate_video_from_image",
+      "kling_get_task",
+      "kling_get_tasks_batch"
+    ],
+    "info": "kling_list_models",
+    "api": [
+      "/kling/videos",
+      "/kling/tasks"
+    ],
+    "keywords": [
+      "kling",
+      "video",
+      "text-to-video",
+      "image-to-video"
+    ],
+    "env": "ACEDATACLOUD_KLING_TOKEN",
+    "name": "kling",
+    "head": "8971d23e186de72d198afb8cbbcd5a6098c47c65",
+    "pr": "https://github.com/AceDataCloud/KlingQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": "https://github.com/AceDataCloud/KlingQwenCode/releases/tag/v0.1.0",
+    "transport": "stdio",
+    "icon": "https://github.com/AceDataCloud/KlingQwenCode/blob/8971d23e186de72d198afb8cbbcd5a6098c47c65/assets/icon.png",
+    "icon_path": "assets/icon.png"
+  },
+  {
+    "repo": "VeoQwenCode",
+    "slug": "veo",
+    "brand": "Veo",
+    "description": "Create a Veo video from text or reference frames, then check the original task for the result. The Ace Data Cloud integration bills video requests to your account.",
+    "cn": "用 Veo 根据文字或参考帧生成视频，再从原任务查询最终结果。",
+    "endpoint": "veo",
+    "mcp_repo": "VeoMCP",
+    "package": "mcp-veo",
+    "package_version": "2026.11.27.0",
+    "tools": [
+      "veo_list_models",
+      "veo_get_prompt_guide",
+      "veo_text_to_video",
+      "veo_image_to_video",
+      "veo_get_task",
+      "veo_get_tasks_batch"
+    ],
+    "info": "veo_list_models",
+    "api": [
+      "/veo/videos",
+      "/veo/tasks"
+    ],
+    "keywords": [
+      "veo",
+      "video",
+      "text-to-video",
+      "image-to-video"
+    ],
+    "env": "ACEDATACLOUD_VEO_TOKEN",
+    "name": "veo",
+    "head": "07861206ace0314af3ef5e73ea77bee7356868e4",
+    "pr": "https://github.com/AceDataCloud/VeoQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": "https://github.com/AceDataCloud/VeoQwenCode/releases/tag/v0.1.0",
+    "transport": "stdio",
+    "icon": "https://github.com/AceDataCloud/VeoQwenCode/blob/07861206ace0314af3ef5e73ea77bee7356868e4/assets/icon.png",
+    "icon_path": "assets/icon.png"
   }
 ]
