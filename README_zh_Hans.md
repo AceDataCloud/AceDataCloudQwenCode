@@ -7,6 +7,15 @@ Qwen Code 0.28.7 的扩展列表显示安装标识。例如产品 **Suno** 仍�
 
 使用完整 URL 指定厂商市场。Qwen Code 0.28.7 可能把仅含市场别名的写法当作 npm 包。转换后的安装保留工具及 QWEN.md；较早的扩展若需原生敏感设置界面，请直接从其 Git 仓库安装，市场转换不会导入原生 `settings` 声明。
 
+## Kling 和 Veo 独立视频工具
+
+按需选择一个扩展。先查看本地模型信息，确认价格后再提交视频生成。
+
+| 产品与使用说明 | 安装 ID | 免费模型说明 |
+| --- | --- | --- |
+| <img src="extensions/kling/assets/icon.png" width="28" alt=""> [Kling](https://github.com/AceDataCloud/KlingQwenCode/blob/8971d23e186de72d198afb8cbbcd5a6098c47c65/readme/README_zh_Hans.md) | `kling` | `kling_list_models` |
+| <img src="extensions/veo/assets/icon.png" width="28" alt=""> [Veo](https://github.com/AceDataCloud/VeoQwenCode/blob/07861206ace0314af3ef5e73ea77bee7356868e4/readme/README_zh_Hans.md) | `veo` | `veo_list_models` |
+
 ## 搜索、图像编辑和语音
 
 以下 3 项原生扩展通过 `uvx` 启动固定版本的 MCP 包。每个服务可设置独立的应用密钥，详见对应仓库。首次使用命令只读取本地能力说明。显式调用网络搜索、图像生成或编辑、语音合成时按服务计费。
