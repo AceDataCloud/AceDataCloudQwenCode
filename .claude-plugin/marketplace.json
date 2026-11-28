@@ -17,7 +17,7 @@
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/56ed1e4fa0976cb541d12439db2889835da2372f",
+      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/204b5fa4de182034cdbcdbcabe4d1322d198d010",
       "source": "./extensions/suno",
       "category": "music",
       "keywords": [
@@ -37,7 +37,7 @@
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/22bca001e0f768c0fb6e05ad530c20297841278e",
+      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/0ef2ab61852f341aaa74b169699c52a8f1f12ee0",
       "source": "./extensions/seedance",
       "category": "video",
       "keywords": [
@@ -57,7 +57,7 @@
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/abdc9181206b1f0f9fb9b31499ec8a2a5a87354a",
+      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/841a0fcf080b0f36983395eb8654f8622c053bf4",
       "source": "./extensions/happyhorse",
       "category": "video",
       "keywords": [
@@ -77,7 +77,7 @@
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/4f7ebfbdd46379da85fe71eaccbd71770337d7fe",
+      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/b4cbfeab4061c669d97fc400fea25d53c8027f8c",
       "source": "./extensions/gpt-image",
       "category": "images",
       "keywords": [
@@ -97,7 +97,7 @@
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe",
+      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/f4ed7441f2ea442201e4c87f20643f29c1879551",
       "source": "./extensions/nano-banana",
       "category": "images",
       "keywords": [

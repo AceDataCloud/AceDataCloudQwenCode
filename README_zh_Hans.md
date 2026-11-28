@@ -48,11 +48,11 @@ Qwen Code 0.28.7 的扩展列表显示安装标识。例如产品 **Suno** 仍�
 qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDataCloudQwenCode/main/.claude-plugin/marketplace.json
 ```
 
-- <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> **Suno**：[SunoQwenCode 中文教程](https://github.com/AceDataCloud/SunoQwenCode/blob/56ed1e4fa0976cb541d12439db2889835da2372f/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SunoQwenCode/pull/2。
-- <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> **Seedance**：[SeedanceQwenCode 中文教程](https://github.com/AceDataCloud/SeedanceQwenCode/blob/22bca001e0f768c0fb6e05ad530c20297841278e/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SeedanceQwenCode/pull/2。
-- <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> **HappyHorse**：[HappyHorseQwenCode 中文教程](https://github.com/AceDataCloud/HappyHorseQwenCode/blob/abdc9181206b1f0f9fb9b31499ec8a2a5a87354a/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2。
-- <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> **GPT Image**：[GPTImageQwenCode 中文教程](https://github.com/AceDataCloud/GPTImageQwenCode/blob/4f7ebfbdd46379da85fe71eaccbd71770337d7fe/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/GPTImageQwenCode/pull/3。
-- <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> **Nano Banana**：[NanoBananaQwenCode 中文教程](https://github.com/AceDataCloud/NanoBananaQwenCode/blob/e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2。
+- <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> **Suno**：[SunoQwenCode 中文教程](https://github.com/AceDataCloud/SunoQwenCode/blob/204b5fa4de182034cdbcdbcabe4d1322d198d010/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SunoQwenCode/pull/2。
+- <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> **Seedance**：[SeedanceQwenCode 中文教程](https://github.com/AceDataCloud/SeedanceQwenCode/blob/0ef2ab61852f341aaa74b169699c52a8f1f12ee0/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SeedanceQwenCode/pull/2。
+- <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> **HappyHorse**：[HappyHorseQwenCode 中文教程](https://github.com/AceDataCloud/HappyHorseQwenCode/blob/841a0fcf080b0f36983395eb8654f8622c053bf4/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2。
+- <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> **GPT Image**：[GPTImageQwenCode 中文教程](https://github.com/AceDataCloud/GPTImageQwenCode/blob/b4cbfeab4061c669d97fc400fea25d53c8027f8c/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/GPTImageQwenCode/pull/3。
+- <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> **Nano Banana**：[NanoBananaQwenCode 中文教程](https://github.com/AceDataCloud/NanoBananaQwenCode/blob/f4ed7441f2ea442201e4c87f20643f29c1879551/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2。
 
 GPT Image 需要 **uv/uvx 与 Python 3.10+**，复用已发布 `mcp-openai-pro==2026.10.19.5 --profile gpt-image`。五项 `gpt_image_*` 工具不暴露通用 OpenAI 或退役 Sora，不回退通用托管 URL；详见固定服务教程。固定版本安装时，请在直接安装命令后添加 `--ref <发布标签>`。
 

@@ -77,11 +77,11 @@ Use the direct JSON URL above. Each entry points to an HTTPS immutable native ex
 
 | Service | Independent source | Merged source PR |
 |---|---|---|
-| <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> Suno | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/56ed1e4fa0976cb541d12439db2889835da2372f) | https://github.com/AceDataCloud/SunoQwenCode/pull/2 |
-| <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> Seedance | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/22bca001e0f768c0fb6e05ad530c20297841278e) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/2 |
-| <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> HappyHorse | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/abdc9181206b1f0f9fb9b31499ec8a2a5a87354a) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2 |
-| <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> GPT Image | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/4f7ebfbdd46379da85fe71eaccbd71770337d7fe) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/3 |
-| <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> Nano Banana | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2 |
+| <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> Suno | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/204b5fa4de182034cdbcdbcabe4d1322d198d010) | https://github.com/AceDataCloud/SunoQwenCode/pull/2 |
+| <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> Seedance | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/0ef2ab61852f341aaa74b169699c52a8f1f12ee0) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/2 |
+| <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> HappyHorse | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/841a0fcf080b0f36983395eb8654f8622c053bf4) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2 |
+| <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> GPT Image | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/b4cbfeab4061c669d97fc400fea25d53c8027f8c) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/3 |
+| <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> Nano Banana | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/f4ed7441f2ea442201e4c87f20643f29c1879551) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2 |
 
 A normal direct install is `qwen extensions install AceDataCloud/<Service>QwenCode`; append `--ref <release-tag>` to install the pinned service version. On an unfixed official CLI, enter only a synthetic placeholder and do not invoke business tools.
 
@@ -89,7 +89,7 @@ GPT Image requires **uv/uvx and Python 3.10+** and launches the existing publish
 
 ## Register / API Token / first result
 
-[Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen). Open **General application**, or initialize it, then copy or create a dedicated Token with the chosen service's permissions. Review [current prices and balance](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen). After a fixed official CLI is verified, paste the raw Token into the native extension's hidden **Ace Data Cloud API Token** prompt; never into chat, exported manifests or command arguments.
+[Register or sign in → Applications](https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen). Open **General application** and copy its API key, or create a separate Token with the chosen service's permissions. Review [current prices and balance](https://platform.acedata.cloud/models?utm_source=github&utm_medium=referral&utm_campaign=evergreen). After a fixed official CLI is verified, paste the raw Token into the native extension's hidden **Ace Data Cloud API Token** prompt; never into chat, exported manifests or command arguments.
 
 ![Actual Ace Key controls](_assets/tutorial/get-api-key-en.png)
 
