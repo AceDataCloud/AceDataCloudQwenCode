@@ -2,6 +2,8 @@
 
 Install any individual published entry using the full marketplace GitHub URL and extension name. For example, `qwen extensions install https://github.com/AceDataCloud/AceDataCloudQwenCode:google-search-by-ace-data-cloud`. Each catalog snapshot copies only the runtime files of the independently pinned release. `source-lock.json` records its commit and file hashes.
 
+Qwen Code 0.28.7 shows the installation ID in its extension list. For example, the product **Suno** uses `suno-by-ace-data-cloud` for install, update and remove commands.
+
 
 The full URL selects the vendor marketplace. In Qwen Code 0.28.7 the short `marketplace-name:extension` spelling can be parsed as an npm package. Marketplace conversion preserves the tools and the QWEN.md file. For the original native sensitive-settings UI in older service extensions, use their direct Git installation; the marketplace converter does not import native `settings` declarations.
 
@@ -11,11 +13,11 @@ These three native extensions start a pinned MCP package locally with `uvx`. Giv
 
 | Service and source | Extension | Local first-use tool | Included tools |
 | --- | --- | --- | --- |
-| <img src="extensions/serp/assets/icon.png" width="28" alt=""> [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
-| <img src="extensions/seedream/assets/icon.png" width="28" alt=""> [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
-| <img src="extensions/fish/assets/icon.png" width="28" alt=""> [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
+| <img src="extensions/serp/assets/icon.png" width="28" alt=""> [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/ab01b0bbdd1920d00b3aab693d9e203eb1a68e75) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
+| <img src="extensions/seedream/assets/icon.png" width="28" alt=""> [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/8ce06723fa88dad66050a8c274fd398300bdfcd3) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
+| <img src="extensions/fish/assets/icon.png" width="28" alt=""> [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/d5b5c31ea735538940d105ff2f1f6fc7555465be) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
 
-<img src="extensions/acemusic/_assets/icon.png" width="28" alt=""> ACE Music uses a process-environment token injected through your secret manager. Qwen Code 0.28.3 was verified to install the extension and attach that token to MCP initialization against a loopback receiver. The historical native *stored setting* limitation below applies to the older five packages. [ACE Music extension at its catalog revision](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/5f4793bcbdf7c0bf483669b3d88a4e2234341675)
+<img src="extensions/acemusic/_assets/icon.png" width="28" alt=""> ACE Music uses a process-environment token injected through your secret manager. Qwen Code 0.28.3 was verified to install the extension and attach that token to MCP initialization against a loopback receiver. The historical native *stored setting* limitation below applies to the older five packages. [ACE Music extension at its catalog revision](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/607eaf57585f6c960152ede947e769ac4c8cfe1f)
 
 **Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
 
@@ -57,11 +59,11 @@ Use the direct JSON URL above. Each entry points to an HTTPS immutable native ex
 
 | Service | Independent source | Merged source PR |
 |---|---|---|
-| <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> Suno by Ace Data Cloud | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/df497a690702c3045490fc9c5c5bdb23b425f9ed) | https://github.com/AceDataCloud/SunoQwenCode/pull/2 |
-| <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> Seedance by Ace Data Cloud | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/c892d8a3ec475ee3471d40c4c45ef17a47fb96ef) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/2 |
-| <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> HappyHorse by Ace Data Cloud | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/e7a6772bd2fd90206a15527fc74fa6b2873887a8) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2 |
-| <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> GPT Image by Ace Data Cloud | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/eff895087fd7546cd794012657c13f964b2607cd) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/3 |
-| <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> Nano Banana by Ace Data Cloud | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/d1dda079c82debd3fb716dbd789092b28c0427a9) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2 |
+| <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> Suno | [SunoQwenCode](https://github.com/AceDataCloud/SunoQwenCode/tree/56ed1e4fa0976cb541d12439db2889835da2372f) | https://github.com/AceDataCloud/SunoQwenCode/pull/2 |
+| <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> Seedance | [SeedanceQwenCode](https://github.com/AceDataCloud/SeedanceQwenCode/tree/22bca001e0f768c0fb6e05ad530c20297841278e) | https://github.com/AceDataCloud/SeedanceQwenCode/pull/2 |
+| <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> HappyHorse | [HappyHorseQwenCode](https://github.com/AceDataCloud/HappyHorseQwenCode/tree/abdc9181206b1f0f9fb9b31499ec8a2a5a87354a) | https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2 |
+| <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> GPT Image | [GPTImageQwenCode](https://github.com/AceDataCloud/GPTImageQwenCode/tree/4f7ebfbdd46379da85fe71eaccbd71770337d7fe) | https://github.com/AceDataCloud/GPTImageQwenCode/pull/3 |
+| <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> Nano Banana | [NanoBananaQwenCode](https://github.com/AceDataCloud/NanoBananaQwenCode/tree/e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe) | https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2 |
 
 A normal direct install is `qwen extensions install AceDataCloud/<Service>QwenCode`; append `--ref <release-tag>` to install the pinned service version. On an unfixed official CLI, enter only a synthetic placeholder and do not invoke business tools.
 

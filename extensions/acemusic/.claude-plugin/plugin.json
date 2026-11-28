@@ -1,6 +1,6 @@
 {
   "name": "ace-music-by-ace-data-cloud",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
   "mcpServers": {
     "acemusic": {

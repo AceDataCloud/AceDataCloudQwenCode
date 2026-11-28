@@ -1,4 +1,4 @@
-# HappyHorse by Ace Data Cloud
+# HappyHorse
 
 Use this extension's happyhorse MCP tools for HappyHorse only. This is an Ace Data Cloud integration, not an official HappyHorse or Qwen endorsement.
 

@@ -2,6 +2,8 @@
 
 使用厂商市场仓库的完整 GitHub URL 和扩展名安装单个条目，例如 `qwen extensions install https://github.com/AceDataCloud/AceDataCloudQwenCode:google-search-by-ace-data-cloud`。目录快照仅复用独立扩展已固定提交中的运行文件，`source-lock.json` 记录提交及文件校验和。
 
+Qwen Code 0.28.7 的扩展列表显示安装标识。例如产品 **Suno** 仍使用 `suno-by-ace-data-cloud` 安装、更新和卸载。
+
 
 使用完整 URL 指定厂商市场。Qwen Code 0.28.7 可能把仅含市场别名的写法当作 npm 包。转换后的安装保留工具及 QWEN.md；较早的扩展若需原生敏感设置界面，请直接从其 Git 仓库安装，市场转换不会导入原生 `settings` 声明。
 
@@ -11,11 +13,11 @@
 
 | 服务及源码 | 扩展 ID | 本地首次检查工具 | 工具数 |
 | --- | --- | --- | --- |
-| <img src="extensions/serp/assets/icon.png" width="28" alt=""> [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
-| <img src="extensions/seedream/assets/icon.png" width="28" alt=""> [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
-| <img src="extensions/fish/assets/icon.png" width="28" alt=""> [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
+| <img src="extensions/serp/assets/icon.png" width="28" alt=""> [Google Search](https://github.com/AceDataCloud/SerpQwenCode/tree/ab01b0bbdd1920d00b3aab693d9e203eb1a68e75) | `google-search-by-ace-data-cloud` | `serp_list_search_types` | 6 |
+| <img src="extensions/seedream/assets/icon.png" width="28" alt=""> [Seedream](https://github.com/AceDataCloud/SeedreamQwenCode/tree/8ce06723fa88dad66050a8c274fd398300bdfcd3) | `seedream-by-ace-data-cloud` | `seedream_list_models` | 6 |
+| <img src="extensions/fish/assets/icon.png" width="28" alt=""> [Fish Audio](https://github.com/AceDataCloud/FishAudioQwenCode/tree/d5b5c31ea735538940d105ff2f1f6fc7555465be) | `fish-audio-by-ace-data-cloud` | `fish_get_usage_guide` | 4 |
 
-<img src="extensions/acemusic/_assets/icon.png" width="28" alt=""> ACE Music 扩展从 Qwen 进程的环境变量读取服务 Key。使用 Qwen Code 0.28.3 验证了原生安装及本地 MCP 初始化时的请求头。下文较早的五个扩展使用 Qwen 自身保存的敏感设置，适用不同的运行限制。[ACE Music 对应源码版本](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/5f4793bcbdf7c0bf483669b3d88a4e2234341675)
+<img src="extensions/acemusic/_assets/icon.png" width="28" alt=""> ACE Music 扩展从 Qwen 进程的环境变量读取服务 Key。使用 Qwen Code 0.28.3 验证了原生安装及本地 MCP 初始化时的请求头。下文较早的五个扩展使用 Qwen 自身保存的敏感设置，适用不同的运行限制。[ACE Music 对应源码版本](https://github.com/AceDataCloud/ACEMusicQwenCode/tree/607eaf57585f6c960152ede947e769ac4c8cfe1f)
 
 **Runtime blocker / 运行阻塞（2026-10-18）:** Qwen 0.25.2 stores the native sensitive setting but does not expand it into MCP HTTP Headers or stdio environment references. Upstream confirmed: https://github.com/QwenLM/qwen-code/issues/14532 . These candidates are not yet ready for real authenticated media calls; install/discovery alone is not success. 原生敏感设置加载修复未发布前，不声称可鉴权调用。
 
@@ -28,11 +30,11 @@
 qwen extensions sources add https://raw.githubusercontent.com/AceDataCloud/AceDataCloudQwenCode/main/.claude-plugin/marketplace.json
 ```
 
-- <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> **Suno**：[SunoQwenCode 中文教程](https://github.com/AceDataCloud/SunoQwenCode/blob/df497a690702c3045490fc9c5c5bdb23b425f9ed/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SunoQwenCode/pull/2。
-- <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> **Seedance**：[SeedanceQwenCode 中文教程](https://github.com/AceDataCloud/SeedanceQwenCode/blob/c892d8a3ec475ee3471d40c4c45ef17a47fb96ef/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SeedanceQwenCode/pull/2。
-- <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> **HappyHorse**：[HappyHorseQwenCode 中文教程](https://github.com/AceDataCloud/HappyHorseQwenCode/blob/e7a6772bd2fd90206a15527fc74fa6b2873887a8/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2。
-- <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> **GPT Image**：[GPTImageQwenCode 中文教程](https://github.com/AceDataCloud/GPTImageQwenCode/blob/eff895087fd7546cd794012657c13f964b2607cd/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/GPTImageQwenCode/pull/3。
-- <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> **Nano Banana**：[NanoBananaQwenCode 中文教程](https://github.com/AceDataCloud/NanoBananaQwenCode/blob/d1dda079c82debd3fb716dbd789092b28c0427a9/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2。
+- <img src="extensions/suno/_assets/icon.jpg" width="28" alt=""> **Suno**：[SunoQwenCode 中文教程](https://github.com/AceDataCloud/SunoQwenCode/blob/56ed1e4fa0976cb541d12439db2889835da2372f/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SunoQwenCode/pull/2。
+- <img src="extensions/seedance/_assets/icon.png" width="28" alt=""> **Seedance**：[SeedanceQwenCode 中文教程](https://github.com/AceDataCloud/SeedanceQwenCode/blob/22bca001e0f768c0fb6e05ad530c20297841278e/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/SeedanceQwenCode/pull/2。
+- <img src="extensions/happyhorse/_assets/icon.jpg" width="28" alt=""> **HappyHorse**：[HappyHorseQwenCode 中文教程](https://github.com/AceDataCloud/HappyHorseQwenCode/blob/abdc9181206b1f0f9fb9b31499ec8a2a5a87354a/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/HappyHorseQwenCode/pull/2。
+- <img src="extensions/gpt-image/_assets/icon.png" width="28" alt=""> **GPT Image**：[GPTImageQwenCode 中文教程](https://github.com/AceDataCloud/GPTImageQwenCode/blob/4f7ebfbdd46379da85fe71eaccbd71770337d7fe/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/GPTImageQwenCode/pull/3。
+- <img src="extensions/nano-banana/_assets/icon.jpg" width="28" alt=""> **Nano Banana**：[NanoBananaQwenCode 中文教程](https://github.com/AceDataCloud/NanoBananaQwenCode/blob/e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe/readme/README_zh_Hans.md)，实现 PR https://github.com/AceDataCloud/NanoBananaQwenCode/pull/2。
 
 GPT Image 需要 **uv/uvx 与 Python 3.10+**，复用已发布 `mcp-openai-pro==2026.10.19.5 --profile gpt-image`。五项 `gpt_image_*` 工具不暴露通用 OpenAI 或退役 Sora，不回退通用托管 URL；详见固定服务教程。固定版本安装时，请在直接安装命令后添加 `--ref <发布标签>`。
 

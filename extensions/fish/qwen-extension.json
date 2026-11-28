@@ -1,7 +1,7 @@
 {
   "name": "fish-audio-by-ace-data-cloud",
-  "version": "0.1.0",
-  "displayName": "Fish Audio by Ace Data Cloud",
+  "version": "0.1.1",
+  "displayName": "Fish Audio",
   "description": "Generate speech with Fish Audio through Ace Data Cloud and check an existing task. Read the local usage guide before synthesis.",
   "contextFileName": "QWEN.md",
   "mcpServers": {

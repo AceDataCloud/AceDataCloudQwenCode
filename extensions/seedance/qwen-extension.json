@@ -1,7 +1,7 @@
 {
   "name": "seedance-by-ace-data-cloud",
-  "version": "0.1.0-rc.2",
-  "displayName": "Seedance by Ace Data Cloud",
+  "version": "0.1.0-rc.3",
+  "displayName": "Seedance",
   "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud.",
   "contextFileName": "QWEN.md",
   "mcpServers": {

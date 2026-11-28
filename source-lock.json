@@ -1,6 +1,6 @@
 {
   "acemusic": {
-    "commit": "5f4793bcbdf7c0bf483669b3d88a4e2234341675",
+    "commit": "607eaf57585f6c960152ede947e769ac4c8cfe1f",
     "files": {
       "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
       "QWEN.md": "4b414aad86d24c37967d49d78a1600f62aa754771e76c42cb57d174c5e7f3dcb",
@@ -8,29 +8,29 @@
       "_assets/icon.png": "52deddfc87b9adf1a215e4c69395c65890701ce87a5c7c084cd91b684c46ba35",
       "commands/first-use.md": "677c238e2e910e639f0448e47b9b3c61b2c210d9e8e038a0902b211ecb7a6e94",
       "commands/status.md": "61ebcfb6362d8df283061864091585d404a206eef80e1ef3f7ac52b27f080449",
-      "qwen-extension.json": "764ab91515d639a141ed539fdf410afbc65183195bb35bbfd5b17dc1d5a05f05",
+      "qwen-extension.json": "0a6871db79b8760e92c8a38c88a98e5163e00cee436e7733bac0a2d6171eb60c",
       "readme/README_zh_Hans.md": "f8dd811eaff566ce118a4626107b35ee31691dda4f409355fe38bd8805e1a706"
     },
     "repo": "AceDataCloud/ACEMusicQwenCode"
   },
   "fish": {
-    "commit": "f7af62678249c1e7d27fb9c0e0ae23845550fc34",
+    "commit": "d5b5c31ea735538940d105ff2f1f6fc7555465be",
     "files": {
       "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
-      "QWEN.md": "3e41c22fd9f20438df00e27475bb3eab243799eec1c1acae0200d008f4a8bdf9",
-      "README.md": "970d66b5f3ada97812390784cf051f724ec4c0db4eb71053e42913415d16ce57",
+      "QWEN.md": "e649b9f0ad5933ffa7a78a8eaf5a51f3fea902b0e42bf01a17b3f43d25d254de",
+      "README.md": "a3cc1ddf9297728393f692c2a49bf5d891a39a46040518099da272ffbe99fe81",
       "assets/icon.png": "5a3e33accd4a6dc44b631fe07b25deca9c9d39c82ece890b8d5fd746516913fd",
       "commands/first-use.md": "5df5d2b873979b67e0b1195086be8c1b476794378ef7a09f2e8ada72083f4253",
-      "qwen-extension.json": "cf9153b32c969e674e31cd5436f96e009a725cb5a427d278e270d494a3748198"
+      "qwen-extension.json": "6b29bbf9f6b4b7acf53ea7372450019e141f4c28dc0653d3f1e1066f58106dfd"
     },
     "repo": "AceDataCloud/FishAudioQwenCode"
   },
   "gpt-image": {
-    "commit": "eff895087fd7546cd794012657c13f964b2607cd",
+    "commit": "4f7ebfbdd46379da85fe71eaccbd71770337d7fe",
     "files": {
       "LICENSE": "68a35d40b260157f66e583867b05233fd44a277c7164071965f93eff4c17f852",
-      "QWEN.md": "7256b8c20d7cdec0284d3d9a5a9236b97d4b60cdd0f1d902ea1296c38f419a7c",
-      "README.md": "517a352bf0a4749162ec678a812018ca755bb90773b553beaa23e504d18420ce",
+      "QWEN.md": "8362a779a6cc54e7513da3c4c20a94de6c24ab89c5cc310192955e7a95c88fa7",
+      "README.md": "3af664fab2d903fa8d35cfd9ababe44f4320fead9133c47ec1bd0a77c55ef5d4",
       "_assets/icon.png": "b525d3451af82c229d95402f91a20e74bd8b738c75b77c12a2592cb1d02b344f",
       "_assets/tutorial/SOURCES.json": "919e973548adaf6a98236e3331c8bc0ba0168b2802736c04a4bf7eab169109f7",
       "_assets/tutorial/create-api-key-en.png": "977c06780b36ca33f2fb3ba546e2594efe5895400e4cb58d842eb564c3bb09da",
@@ -38,17 +38,17 @@
       "_assets/tutorial/qwen-provider-preview.png": "57ecc3320c6f7d941c98475b498dcf29f235a2300c0fed4349671682ca8a2cc0",
       "commands/first-use.md": "4f3c93e73e7709a7b0541e5ab155b6c144ec1204b70c9ffd109faff791924c38",
       "commands/status.md": "f8ac42f99066bfdc32b4cfb5d951d69ddddb23797483bb6af1a949943ce45c17",
-      "qwen-extension.json": "2f2a25f64d4b8d2a5385903fc79fd69b30e227aa4d4c302be2ea0db995a30240",
-      "readme/README_zh_Hans.md": "2419ad0149bb6b270acb5a98e5cb5086f069b642418ff58a093e5fae2b258a77"
+      "qwen-extension.json": "1086b85f452754f25be446faa584c733f721136656b3e01a94ed8f5aa159f924",
+      "readme/README_zh_Hans.md": "ee52ea8b0eed3aea4d3087a2bdd6adf622ffce05a31aef9182441329a5b6ca35"
     },
     "repo": "AceDataCloud/GPTImageQwenCode"
   },
   "happyhorse": {
-    "commit": "e7a6772bd2fd90206a15527fc74fa6b2873887a8",
+    "commit": "abdc9181206b1f0f9fb9b31499ec8a2a5a87354a",
     "files": {
       "LICENSE": "68a35d40b260157f66e583867b05233fd44a277c7164071965f93eff4c17f852",
-      "QWEN.md": "603e15fa0db7ff285b76750a1f9a81182201c87017221f9224d0eb4f357c5534",
-      "README.md": "8a9e117df231400cb010519a9d9efbbb7c8608a253a448e9135748322618b797",
+      "QWEN.md": "b0047e842042165e6053f9cc5f03eb37d8bd7a1d6bca73da7a301b7efbd948b0",
+      "README.md": "37c987e6c17210354cc838e898156584397b7e873e01d62acc4333263f87ab8a",
       "_assets/icon.jpg": "58c5821d63219093ca86d5780231612218c472d66f8a66a59131a873fc736d0f",
       "_assets/tutorial/SOURCES.json": "919e973548adaf6a98236e3331c8bc0ba0168b2802736c04a4bf7eab169109f7",
       "_assets/tutorial/create-api-key-en.png": "977c06780b36ca33f2fb3ba546e2594efe5895400e4cb58d842eb564c3bb09da",
@@ -56,17 +56,17 @@
       "_assets/tutorial/qwen-provider-preview.png": "57ecc3320c6f7d941c98475b498dcf29f235a2300c0fed4349671682ca8a2cc0",
       "commands/first-use.md": "8511401af9ae6b3b3bc9be7fc220d099f7b37e85d05a4622e0405abdf5e2dc28",
       "commands/status.md": "a995c952484c51fbc95e325d07003e5149fa9b70fa645d89cf2825a0673de129",
-      "qwen-extension.json": "74ffff18a3393b06cb29fcda81c31b1dafdc14e21424dc6382532e26b06a542f",
-      "readme/README_zh_Hans.md": "f603b6cc7d071a8c144de0b07a8caf024d8eb674330b920d1a6de22ec8801983"
+      "qwen-extension.json": "0abaa95a8d0bd6e957d185b21efd48946a7ba55315e2762369fb9a4ebb0b6dae",
+      "readme/README_zh_Hans.md": "0273e7e43800cf5f74af98715dfa9f56ac5d4034501c8338d28480c73b21c6bc"
     },
     "repo": "AceDataCloud/HappyHorseQwenCode"
   },
   "nano-banana": {
-    "commit": "d1dda079c82debd3fb716dbd789092b28c0427a9",
+    "commit": "e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe",
     "files": {
       "LICENSE": "68a35d40b260157f66e583867b05233fd44a277c7164071965f93eff4c17f852",
-      "QWEN.md": "d5c2cd1abb1f235b17234a987cd89a5b345cc0431e28952613e6dc5925a3bc21",
-      "README.md": "b9403505fb97d69a42040ca8a280f07db5c33f2f23a2248273815f2a1c35a848",
+      "QWEN.md": "fb67e6c2f4a7fd25cac904d3fe7b595fdac16019bacbada0b080563f48999336",
+      "README.md": "0a06231a336f675092a072a06388ebe08570499f42572a9f4abb9561947781b4",
       "_assets/icon.jpg": "047c3d1a8252a18ccfb65ac09f3f1e2a87ea70525db01fd54f5d70bc312d9814",
       "_assets/tutorial/SOURCES.json": "919e973548adaf6a98236e3331c8bc0ba0168b2802736c04a4bf7eab169109f7",
       "_assets/tutorial/create-api-key-en.png": "977c06780b36ca33f2fb3ba546e2594efe5895400e4cb58d842eb564c3bb09da",
@@ -74,17 +74,17 @@
       "_assets/tutorial/qwen-provider-preview.png": "57ecc3320c6f7d941c98475b498dcf29f235a2300c0fed4349671682ca8a2cc0",
       "commands/first-use.md": "0fd9ae70078c74b68e81113d3c6ffa495a7e03ae57270881f0de660c4e879518",
       "commands/status.md": "d8a63e8a27d2ffd696dfdb73a2d8b701ebeb867f6f549c8f105d46110a0c5b6d",
-      "qwen-extension.json": "9a65cf7f8f6eb991e592bb09b1e4a85b99f042583dd740036f1fb9bd57ac623a",
-      "readme/README_zh_Hans.md": "5f429809b0ce1853889a65f2e700fd849f57a410bafcdad05f952409a374e68b"
+      "qwen-extension.json": "daa1fe5ec4e0a612a41527ba1d650f571e5f24316116f35b494672db7d97d630",
+      "readme/README_zh_Hans.md": "2f275f0ab1b7b6264c264508e2452010ca270e3136208f00821f339a1e871743"
     },
     "repo": "AceDataCloud/NanoBananaQwenCode"
   },
   "seedance": {
-    "commit": "c892d8a3ec475ee3471d40c4c45ef17a47fb96ef",
+    "commit": "22bca001e0f768c0fb6e05ad530c20297841278e",
     "files": {
       "LICENSE": "68a35d40b260157f66e583867b05233fd44a277c7164071965f93eff4c17f852",
-      "QWEN.md": "1f1e92d8611ad82740a4ce3696d8d32f71c7709a5d46063ab623e53cc191bade",
-      "README.md": "e25a0f1d9f0c5802a1a66bc79cbc77809d66b12ca59f3a2d51e0c15206960b4e",
+      "QWEN.md": "5aaa0633c376ab031c7e88d15081bf9cabfeef079ff43b7d81f9a9b833952da5",
+      "README.md": "2cb415fe0d189c6b44a5523efc35a26b806c72e5d744829e47ccb5e48e5098a8",
       "_assets/icon.png": "6a5b07c1d33d2910eb9fe1c8549874a004d13a0e75d9b30a7cfdc255c586a83d",
       "_assets/tutorial/SOURCES.json": "919e973548adaf6a98236e3331c8bc0ba0168b2802736c04a4bf7eab169109f7",
       "_assets/tutorial/create-api-key-en.png": "977c06780b36ca33f2fb3ba546e2594efe5895400e4cb58d842eb564c3bb09da",
@@ -92,41 +92,41 @@
       "_assets/tutorial/qwen-provider-preview.png": "57ecc3320c6f7d941c98475b498dcf29f235a2300c0fed4349671682ca8a2cc0",
       "commands/first-use.md": "7fed1fb56a3069b70dd03ed89e907d5a6cd24e5e24c53d7f70c19055c212c88a",
       "commands/status.md": "68d5fe17c83a89c4d9ecb93f47fe7e7021efc58bd3f6fce7af84bc1479565b60",
-      "qwen-extension.json": "8f7ed000aab68770f5a4171bc678f66f837a8c0ab29a0c315111a8f238469eda",
-      "readme/README_zh_Hans.md": "040454b4d97d1d16e5398f96e47a18e059145cecc359028cc982d3f2c189c1c9"
+      "qwen-extension.json": "0d226414828bf78d20c54c62ed7c1bf4c4265c5bda036f3737381350b77ae27c",
+      "readme/README_zh_Hans.md": "a5eaec2e2ba4e469cc251eee3042dd7dc1a60ef0581a9ee36b2feb2e96254e64"
     },
     "repo": "AceDataCloud/SeedanceQwenCode"
   },
   "seedream": {
-    "commit": "ab9e213fb2898b13b4ba9b8bc1d15230406eafcf",
+    "commit": "8ce06723fa88dad66050a8c274fd398300bdfcd3",
     "files": {
       "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
-      "QWEN.md": "c35ad976e39e17031ab91025e526fd70e28ccb4140e95db8175189c3529cbb37",
-      "README.md": "740887991b2bf38c9baf47ac2bf3c7170cb82d45196e65b482afa71124abf767",
+      "QWEN.md": "ee04c7a569098da0b1fe366ec13dcb538474b6c9494203c2ad273eec2ac1dafb",
+      "README.md": "f05fb0886e6cab5c8be9362761a7f4642c0c628c88c5292638f18e59b0ffa41f",
       "assets/icon.png": "5683b204c83cb9aab54a592a818b333b0a45b417e01d380148b91b10329c6f8f",
       "commands/first-use.md": "f90c8d262e81def53d8c46e35dd9f1fb8c44fb9883792dbf756a088e5b33d1c2",
-      "qwen-extension.json": "c01961abd06e6556181480a7afbb49bd9f507672ecb0aad18f3fc9cf4dd6415d"
+      "qwen-extension.json": "617c58506e33301a97863292213c87767279588f406d166dd06fd12051c3b3b2"
     },
     "repo": "AceDataCloud/SeedreamQwenCode"
   },
   "serp": {
-    "commit": "bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b",
+    "commit": "ab01b0bbdd1920d00b3aab693d9e203eb1a68e75",
     "files": {
       "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
-      "QWEN.md": "bb30d085086c52d5789ee15edbf9c4f2d226667528c3c60e2ba27f03caadfdc0",
-      "README.md": "6d0396cb16abbcf67559d3445c01027b31862ea19335b461e07489ae9d3caac5",
+      "QWEN.md": "a823474bf72219b4210d48700bd9cdac9c7580dd70374b5e3085c567253999f7",
+      "README.md": "610a6466505f359e7cd475321d26cd543aee7ed792e400afa3c22f1a76f04bef",
       "assets/icon.png": "316fdb3b0f037c32b3c907b0a80859db9f06a3138666989f87ea0fd3a6536986",
       "commands/first-use.md": "3bdefc0b9627779fbd93d8f3cf53252531212f1165b9bd1dde324265ebab7371",
-      "qwen-extension.json": "92268ba020f432f658f6bd5cc2e6541e799d81782b3e1bcda42276f55188aa5e"
+      "qwen-extension.json": "4e4b14ac372bf4148c54faf96e59f7130d6e0d1e6787e7f8f5e7d07bf5672c70"
     },
     "repo": "AceDataCloud/SerpQwenCode"
   },
   "suno": {
-    "commit": "df497a690702c3045490fc9c5c5bdb23b425f9ed",
+    "commit": "56ed1e4fa0976cb541d12439db2889835da2372f",
     "files": {
       "LICENSE": "68a35d40b260157f66e583867b05233fd44a277c7164071965f93eff4c17f852",
-      "QWEN.md": "33fffe55aebe529d233fa338c48ab55ffb502ee1bd521f96edb32408f0675c98",
-      "README.md": "3fcd2f065b9f905e7bfda5f8d84e282c614e9f486ca3356b558a45952009a222",
+      "QWEN.md": "98902afd0de14991dfada5f2b43b4f8807ef04c6f4721d9f525ec709a54e777e",
+      "README.md": "e7a982e123bfd101cf6ebcca0b3be37d270f65221de891962faeecff0071d2b8",
       "_assets/icon.jpg": "d2ccb1c0039519a68913ad447114f8f9ecca161ffc2105cd61c414e06f8747d9",
       "_assets/tutorial/SOURCES.json": "919e973548adaf6a98236e3331c8bc0ba0168b2802736c04a4bf7eab169109f7",
       "_assets/tutorial/create-api-key-en.png": "977c06780b36ca33f2fb3ba546e2594efe5895400e4cb58d842eb564c3bb09da",
@@ -134,8 +134,8 @@
       "_assets/tutorial/qwen-provider-preview.png": "57ecc3320c6f7d941c98475b498dcf29f235a2300c0fed4349671682ca8a2cc0",
       "commands/first-use.md": "bea0a21fc9a0720b6b36a3b204b3a9209f21161279ffaa6590733d33fc50bf1a",
       "commands/status.md": "48821504f3e02a557ee35a93299ce3e950a05bd9bb074091ce198a694ebe5902",
-      "qwen-extension.json": "103d7a32ddef3198560536049eb41d917c52d466d5df0c355b4de2c1f823c85a",
-      "readme/README_zh_Hans.md": "c4dffea02ff61ca8fe36d01168ed8643ba872881ada64a4cbde4a03e363de74f"
+      "qwen-extension.json": "6f89d2942025b2dc8d09968b8e40995e97cc0e101b705e674a5c61e512324408",
+      "readme/README_zh_Hans.md": "86935b408bc398c0b67218fe0a6b2803d37c5094eba28db7ee047d243f49cc59"
     },
     "repo": "AceDataCloud/SunoQwenCode"
   }

@@ -1,6 +1,6 @@
 {
   "name": "gpt-image-by-ace-data-cloud",
-  "version": "0.1.0-rc.3",
+  "version": "0.1.0-rc.4",
   "description": "Generate and edit GPT Image pictures through Ace Data Cloud, with async task retrieval.",
   "mcpServers": {
     "gpt-image": {

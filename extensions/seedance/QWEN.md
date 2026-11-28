@@ -1,4 +1,4 @@
-# Seedance by Ace Data Cloud
+# Seedance
 
 Use this extension's seedance MCP tools for Seedance only. This is an Ace Data Cloud integration, not an official Seedance or Qwen endorsement.
 

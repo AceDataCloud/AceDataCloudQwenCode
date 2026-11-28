@@ -18,5 +18,6 @@ class PinnedSourcesTest(unittest.TestCase):
             for path, digest in row['files'].items():
                 self.assertEqual(hashlib.sha256((destination / path).read_bytes()).hexdigest(), digest)
             native = json.loads((destination / 'qwen-extension.json').read_text())
+            self.assertEqual(native['displayName'], s['brand'])
             bridge = json.loads((destination / '.claude-plugin/plugin.json').read_text())
             self.assertEqual(bridge, {key:native[key] for key in ('name','version','description','mcpServers')})

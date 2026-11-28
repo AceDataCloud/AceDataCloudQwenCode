@@ -1,7 +1,7 @@
 {
   "name": "nano-banana-by-ace-data-cloud",
-  "version": "0.1.0-rc.2",
-  "displayName": "Nano Banana by Ace Data Cloud",
+  "version": "0.1.0-rc.3",
+  "displayName": "Nano Banana",
   "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results.",
   "contextFileName": "QWEN.md",
   "mcpServers": {

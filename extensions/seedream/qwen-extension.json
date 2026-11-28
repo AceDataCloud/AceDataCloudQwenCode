@@ -1,7 +1,7 @@
 {
   "name": "seedream-by-ace-data-cloud",
-  "version": "0.1.0",
-  "displayName": "Seedream by Ace Data Cloud",
+  "version": "0.1.1",
+  "displayName": "Seedream",
   "description": "Create or edit Seedream images through Ace Data Cloud and check the original task ID. Inspect supported models and sizes locally.",
   "contextFileName": "QWEN.md",
   "mcpServers": {
