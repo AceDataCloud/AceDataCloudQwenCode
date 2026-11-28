@@ -1,0 +1,5 @@
+# Tripo 3D
+
+For a new 3D model, choose one prompt, one reference image, or ordered front/left/back/right views in `tripo_generate_model`. For multiple views, provide the front and at least one other image. To work with an existing model, choose `tripo_texture_model` or `tripo_convert_model`. Generation and texturing use credits; conversion can incur charges depending on its options. Save the task ID and call `tripo_get_task` to retrieve that same task. For setup, use [Applications](https://platform.acedata.cloud/console/applications?utm_source=qwen-code&utm_medium=referral&utm_campaign=evergreen) and [pricing](https://platform.acedata.cloud/models?utm_source=qwen-code&utm_medium=referral&utm_campaign=evergreen). Only submit billable work on the user's request.
+
+新建模型时使用 `tripo_generate_model`，在文字、单张参考图或按前/左/后/右排列的多视图中选择一种输入。多视图需要正面图和至少一个其他视角。已有模型可用 `tripo_texture_model` 贴图或 `tripo_convert_model` 转换格式。生成和贴图会消耗积分，转换费用取决于选项。保存任务 ID，再用 `tripo_get_task` 查询。 请用户将密钥配置在系统环境变量 `ACEDATACLOUD_TRIPO_TOKEN` 中。

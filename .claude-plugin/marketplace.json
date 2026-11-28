@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Independent native Qwen service extensions from Ace Data Cloud. Add this source to discover and install individual services.",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   "plugins": [
     {
@@ -216,6 +216,42 @@
         "video",
         "text-to-video",
         "image-to-video"
+      ]
+    },
+    {
+      "name": "flux",
+      "description": "Generate or edit FLUX images, create a FLUX video, and retrieve the original task result. Runs through your Ace Data Cloud account.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/FluxQwenCode/tree/23c44dd9c3d88dab635c868d1081f2b0329d78fe",
+      "source": "./extensions/flux",
+      "category": "creative",
+      "keywords": [
+        "flux",
+        "image",
+        "image-editing",
+        "video"
+      ]
+    },
+    {
+      "name": "tripo",
+      "description": "Generate a 3D model from a prompt or reference images, texture or convert a model, and look up an existing task. Runs through your Ace Data Cloud account.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ace Data Cloud",
+        "email": "dev@acedata.cloud"
+      },
+      "homepage": "https://github.com/AceDataCloud/TripoQwenCode/tree/2cdc55f5506c710efb0f7c747c6d0a1fff32a65c",
+      "source": "./extensions/tripo",
+      "category": "creative",
+      "keywords": [
+        "tripo",
+        "3d",
+        "model-generation",
+        "texturing"
       ]
     }
   ]

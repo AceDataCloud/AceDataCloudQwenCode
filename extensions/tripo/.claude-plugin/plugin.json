@@ -1,0 +1,23 @@
+{
+  "name": "tripo",
+  "version": "0.1.0",
+  "description": "Generate a 3D model from a prompt or reference images, texture or convert a model, and look up an existing task. Runs through your Ace Data Cloud account.",
+  "mcpServers": {
+    "tripo": {
+      "command": "uvx",
+      "args": [
+        "mcp-tripo==2026.11.28.0"
+      ],
+      "env": {
+        "ACEDATACLOUD_API_TOKEN": "${ACEDATACLOUD_TRIPO_TOKEN}"
+      },
+      "includeTools": [
+        "tripo_generate_model",
+        "tripo_texture_model",
+        "tripo_convert_model",
+        "tripo_get_task",
+        "tripo_get_tasks"
+      ]
+    }
+  }
+}

@@ -25,6 +25,19 @@
     },
     "repo": "AceDataCloud/FishAudioQwenCode"
   },
+  "flux": {
+    "commit": "23c44dd9c3d88dab635c868d1081f2b0329d78fe",
+    "files": {
+      "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+      "QWEN.md": "2e93e560da9ef00a19bf8aedf8ff0f975273d74dd96003ab777ff4086c0ac585",
+      "README.md": "b109af5b8bde61e8408541f2865de553ddd5970e5805d6df2b8e481e271a16a9",
+      "assets/icon.png": "6ed7103c8bbcc82dba32b2dc349355fb319fc28ba7764eec4c89237f187f59a7",
+      "commands/first-use.md": "72310b7e32fd0fc185f3ba26149320f929287e21924d94c1a6973be86db1d5e2",
+      "qwen-extension.json": "25d1193758481187b622747b5f9583b09a5cba7c0a8eee2abeebb3fa5c06a6e4",
+      "readme/README_zh_Hans.md": "3dd9f7429e60936a8cecf329e1795ea4286d8dc142b4c5f5b37f6bb16c779779"
+    },
+    "repo": "AceDataCloud/FluxQwenCode"
+  },
   "gpt-image": {
     "commit": "4f7ebfbdd46379da85fe71eaccbd71770337d7fe",
     "files": {
@@ -151,6 +164,19 @@
       "readme/README_zh_Hans.md": "86935b408bc398c0b67218fe0a6b2803d37c5094eba28db7ee047d243f49cc59"
     },
     "repo": "AceDataCloud/SunoQwenCode"
+  },
+  "tripo": {
+    "commit": "2cdc55f5506c710efb0f7c747c6d0a1fff32a65c",
+    "files": {
+      "LICENSE": "72d30730d068e067be58878959bac2450f5a05f2b2e3c365cdc13a0181635c3c",
+      "QWEN.md": "214c53b6131425494afdb0118b80ad62f857be7c62b1b9e8a674c7872946e06c",
+      "README.md": "01e6df3d5aac626541b0910592eda6d71f254f7ccc6307f69a206365a15046f4",
+      "assets/icon.png": "87076858b91a59da25f59ea0ca13946600ad793a83258f4e04dd472fe6403b27",
+      "commands/first-use.md": "dc430775268f48313538e8ea50cd88ea6043804c61e797f089b5d8481e94c385",
+      "qwen-extension.json": "a74169c12f0047672a5d3099fd8892af8c2681bc4976744e865064dfb5d6eeef",
+      "readme/README_zh_Hans.md": "ee215393ea80930c00dcbfdc45419302de27cb113843d514f193279dabb218f7"
+    },
+    "repo": "AceDataCloud/TripoQwenCode"
   },
   "veo": {
     "commit": "07861206ace0314af3ef5e73ea77bee7356868e4",
