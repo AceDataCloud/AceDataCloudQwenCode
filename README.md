@@ -7,6 +7,15 @@ Qwen Code 0.28.7 shows the installation ID in its extension list. For example, t
 
 The full URL selects the vendor marketplace. In Qwen Code 0.28.7 the short `marketplace-name:extension` spelling can be parsed as an npm package. Marketplace conversion preserves the tools and the QWEN.md file. For the original native sensitive-settings UI in older service extensions, use their direct Git installation; the marketplace converter does not import native `settings` declarations.
 
+## FLUX images and Tripo 3D models
+
+Install either extension independently. Read its first-use instructions before submitting an image, video or 3D model.
+
+| Product and setup guide | Install ID | First use |
+| --- | --- | --- |
+| <img src="extensions/flux/assets/icon.png" width="28" alt=""> [FLUX](https://github.com/AceDataCloud/FluxQwenCode/blob/23c44dd9c3d88dab635c868d1081f2b0329d78fe/README.md) | `flux` | `flux_list_models` |
+| <img src="extensions/tripo/assets/icon.png" width="28" alt=""> [Tripo 3D](https://github.com/AceDataCloud/TripoQwenCode/blob/2cdc55f5506c710efb0f7c747c6d0a1fff32a65c/README.md) | `tripo` | Inspect tools |
+
 ## Kling and Veo video tools
 
 Install either extension on its own. Start with the local model guide and check pricing before submitting a video.

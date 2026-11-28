@@ -1,0 +1,27 @@
+{
+  "name": "flux",
+  "version": "0.1.0",
+  "displayName": "FLUX",
+  "description": "Generate or edit FLUX images, create a FLUX video, and retrieve the original task result. Runs through your Ace Data Cloud account.",
+  "contextFileName": "QWEN.md",
+  "mcpServers": {
+    "flux": {
+      "command": "uvx",
+      "args": [
+        "mcp-flux-pro==2026.11.27.0"
+      ],
+      "env": {
+        "ACEDATACLOUD_API_TOKEN": "${ACEDATACLOUD_FLUX_TOKEN}"
+      },
+      "includeTools": [
+        "flux_list_models",
+        "flux_list_actions",
+        "flux_generate_image",
+        "flux_edit_image",
+        "flux_generate_video",
+        "flux_get_task",
+        "flux_get_tasks_batch"
+      ]
+    }
+  }
+}

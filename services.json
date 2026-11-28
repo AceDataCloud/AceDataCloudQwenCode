@@ -446,5 +446,85 @@
     "transport": "stdio",
     "icon": "https://github.com/AceDataCloud/VeoQwenCode/blob/07861206ace0314af3ef5e73ea77bee7356868e4/assets/icon.png",
     "icon_path": "assets/icon.png"
+  },
+  {
+    "repo": "FluxQwenCode",
+    "slug": "flux",
+    "brand": "FLUX",
+    "description": "Generate or edit FLUX images, create a FLUX video, and retrieve the original task result. Runs through your Ace Data Cloud account.",
+    "cn": "使用 FLUX 生成或编辑图像、生成视频，并从原任务查询最终结果。",
+    "endpoint": "flux",
+    "mcp_repo": "FluxMCP",
+    "package": "mcp-flux-pro",
+    "package_version": "2026.11.27.0",
+    "tools": [
+      "flux_list_models",
+      "flux_list_actions",
+      "flux_generate_image",
+      "flux_edit_image",
+      "flux_generate_video",
+      "flux_get_task",
+      "flux_get_tasks_batch"
+    ],
+    "info": "flux_list_models",
+    "api": [
+      "/flux/images",
+      "/flux/videos",
+      "/flux/tasks"
+    ],
+    "keywords": [
+      "flux",
+      "image",
+      "image-editing",
+      "video"
+    ],
+    "env": "ACEDATACLOUD_FLUX_TOKEN",
+    "name": "flux",
+    "head": "23c44dd9c3d88dab635c868d1081f2b0329d78fe",
+    "pr": "https://github.com/AceDataCloud/FluxQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": "https://github.com/AceDataCloud/FluxQwenCode/releases/tag/v0.1.0",
+    "transport": "stdio",
+    "icon": "https://github.com/AceDataCloud/FluxQwenCode/blob/23c44dd9c3d88dab635c868d1081f2b0329d78fe/assets/icon.png",
+    "icon_path": "assets/icon.png"
+  },
+  {
+    "repo": "TripoQwenCode",
+    "slug": "tripo",
+    "brand": "Tripo 3D",
+    "description": "Generate a 3D model from a prompt or reference images, texture or convert a model, and look up an existing task. Runs through your Ace Data Cloud account.",
+    "cn": "使用文字或参考图生成 3D 模型，为已有模型贴图、转换格式，并查询任务。",
+    "endpoint": "tripo",
+    "mcp_repo": "TripoMCP",
+    "package": "mcp-tripo",
+    "package_version": "2026.11.28.0",
+    "tools": [
+      "tripo_generate_model",
+      "tripo_texture_model",
+      "tripo_convert_model",
+      "tripo_get_task",
+      "tripo_get_tasks"
+    ],
+    "info": null,
+    "api": [
+      "/tripo/generations",
+      "/tripo/models",
+      "/tripo/tasks"
+    ],
+    "keywords": [
+      "tripo",
+      "3d",
+      "model-generation",
+      "texturing"
+    ],
+    "env": "ACEDATACLOUD_TRIPO_TOKEN",
+    "name": "tripo",
+    "head": "2cdc55f5506c710efb0f7c747c6d0a1fff32a65c",
+    "pr": "https://github.com/AceDataCloud/TripoQwenCode/pull/1",
+    "version": "0.1.0",
+    "release": "https://github.com/AceDataCloud/TripoQwenCode/releases/tag/v0.1.0",
+    "transport": "stdio",
+    "icon": "https://github.com/AceDataCloud/TripoQwenCode/blob/2cdc55f5506c710efb0f7c747c6d0a1fff32a65c/assets/icon.png",
+    "icon_path": "assets/icon.png"
   }
 ]

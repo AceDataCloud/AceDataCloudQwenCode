@@ -7,6 +7,15 @@ Qwen Code 0.28.7 的扩展列表显示安装标识。例如产品 **Suno** 仍�
 
 使用完整 URL 指定厂商市场。Qwen Code 0.28.7 可能把仅含市场别名的写法当作 npm 包。转换后的安装保留工具及 QWEN.md；较早的扩展若需原生敏感设置界面，请直接从其 Git 仓库安装，市场转换不会导入原生 `settings` 声明。
 
+## FLUX 图像与 Tripo 3D 模型
+
+按需选择 FLUX 图像与视频工具，或 Tripo 3D 模型工具。安装后可以先查看内置使用指引。
+
+| 产品与使用说明 | 安装 ID | 首次使用 |
+| --- | --- | --- |
+| <img src="extensions/flux/assets/icon.png" width="28" alt=""> [FLUX](https://github.com/AceDataCloud/FluxQwenCode/blob/23c44dd9c3d88dab635c868d1081f2b0329d78fe/readme/README_zh_Hans.md) | `flux` | `flux_list_models` |
+| <img src="extensions/tripo/assets/icon.png" width="28" alt=""> [Tripo 3D](https://github.com/AceDataCloud/TripoQwenCode/blob/2cdc55f5506c710efb0f7c747c6d0a1fff32a65c/readme/README_zh_Hans.md) | `tripo` | 查看工具说明 |
+
 ## Kling 和 Veo 独立视频工具
 
 按需选择一个扩展。先查看本地模型信息，确认价格后再提交视频生成。
