@@ -1,4 +1,4 @@
-# Nano Banana by Ace Data Cloud
+# Nano Banana
 
 Use this extension's nano-banana MCP tools for Nano Banana only. This is an Ace Data Cloud integration, not an official Nano Banana or Qwen endorsement.
 

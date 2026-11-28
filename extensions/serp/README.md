@@ -1,4 +1,4 @@
-# Google Search by Ace Data Cloud
+# Google Search
 
 ![Google Search](assets/icon.png)
 

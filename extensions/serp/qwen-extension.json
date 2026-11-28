@@ -1,7 +1,7 @@
 {
   "name": "google-search-by-ace-data-cloud",
-  "version": "0.1.0",
-  "displayName": "Google Search by Ace Data Cloud",
+  "version": "0.1.1",
+  "displayName": "Google Search",
   "description": "Search Google web, images, or news with Ace Data Cloud. Inspect supported search types locally before a billable lookup.",
   "contextFileName": "QWEN.md",
   "mcpServers": {

@@ -6,18 +6,18 @@
   },
   "metadata": {
     "description": "Independent native Qwen service extensions from Ace Data Cloud. Add this source to discover and install individual services.",
-    "version": "0.2.2"
+    "version": "0.2.3"
   },
   "plugins": [
     {
       "name": "suno-by-ace-data-cloud",
       "description": "Generate Suno music and retrieve completed audio through Ace Data Cloud. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.2",
+      "version": "0.1.0-rc.3",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/df497a690702c3045490fc9c5c5bdb23b425f9ed",
+      "homepage": "https://github.com/AceDataCloud/SunoQwenCode/tree/56ed1e4fa0976cb541d12439db2889835da2372f",
       "source": "./extensions/suno",
       "category": "music",
       "keywords": [
@@ -32,12 +32,12 @@
     {
       "name": "seedance-by-ace-data-cloud",
       "description": "Generate Seedance videos and retrieve the same task through Ace Data Cloud. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.2",
+      "version": "0.1.0-rc.3",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/c892d8a3ec475ee3471d40c4c45ef17a47fb96ef",
+      "homepage": "https://github.com/AceDataCloud/SeedanceQwenCode/tree/22bca001e0f768c0fb6e05ad530c20297841278e",
       "source": "./extensions/seedance",
       "category": "video",
       "keywords": [
@@ -52,12 +52,12 @@
     {
       "name": "happyhorse-by-ace-data-cloud",
       "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.2",
+      "version": "0.1.0-rc.3",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/e7a6772bd2fd90206a15527fc74fa6b2873887a8",
+      "homepage": "https://github.com/AceDataCloud/HappyHorseQwenCode/tree/abdc9181206b1f0f9fb9b31499ec8a2a5a87354a",
       "source": "./extensions/happyhorse",
       "category": "video",
       "keywords": [
@@ -72,12 +72,12 @@
     {
       "name": "gpt-image-by-ace-data-cloud",
       "description": "GPT Image generation, editing and task retrieval through Ace Data Cloud. Dedicated five-tool stdio profile; requires uv/uvx and Python 3.10+. Source RC: official Qwen fix #14544 remains unreleased; synthetic setup only.",
-      "version": "0.1.0-rc.3",
+      "version": "0.1.0-rc.4",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/eff895087fd7546cd794012657c13f964b2607cd",
+      "homepage": "https://github.com/AceDataCloud/GPTImageQwenCode/tree/4f7ebfbdd46379da85fe71eaccbd71770337d7fe",
       "source": "./extensions/gpt-image",
       "category": "images",
       "keywords": [
@@ -92,12 +92,12 @@
     {
       "name": "nano-banana-by-ace-data-cloud",
       "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results. Source prerelease: official Qwen native credential fix #14544 is not released; synthetic setup only.",
-      "version": "0.1.0-rc.2",
+      "version": "0.1.0-rc.3",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/d1dda079c82debd3fb716dbd789092b28c0427a9",
+      "homepage": "https://github.com/AceDataCloud/NanoBananaQwenCode/tree/e9a9f1e64c2a5b8c11bf2dc5fa02188ae1ee14fe",
       "source": "./extensions/nano-banana",
       "category": "images",
       "keywords": [
@@ -112,12 +112,12 @@
     {
       "name": "ace-music-by-ace-data-cloud",
       "description": "Create ACE Music songs and lyrics, upload reference audio, cover one owned track, blend two, and retrieve the original task.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/ACEMusicQwenCode/tree/5f4793bcbdf7c0bf483669b3d88a4e2234341675",
+      "homepage": "https://github.com/AceDataCloud/ACEMusicQwenCode/tree/607eaf57585f6c960152ede947e769ac4c8cfe1f",
       "source": "./extensions/acemusic",
       "category": "music",
       "keywords": [
@@ -131,12 +131,12 @@
     {
       "name": "google-search-by-ace-data-cloud",
       "description": "Search Google web, images, or news with Ace Data Cloud. Inspect supported search types locally before a billable lookup.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SerpQwenCode/tree/bc3dc8162bc475e9cea4ce6dd2cd1ac07d46577b",
+      "homepage": "https://github.com/AceDataCloud/SerpQwenCode/tree/ab01b0bbdd1920d00b3aab693d9e203eb1a68e75",
       "source": "./extensions/serp",
       "category": "search",
       "keywords": [
@@ -149,12 +149,12 @@
     {
       "name": "seedream-by-ace-data-cloud",
       "description": "Create or edit Seedream images through Ace Data Cloud and check the original task ID. Inspect supported models and sizes locally.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/SeedreamQwenCode/tree/ab9e213fb2898b13b4ba9b8bc1d15230406eafcf",
+      "homepage": "https://github.com/AceDataCloud/SeedreamQwenCode/tree/8ce06723fa88dad66050a8c274fd398300bdfcd3",
       "source": "./extensions/seedream",
       "category": "image",
       "keywords": [
@@ -167,12 +167,12 @@
     {
       "name": "fish-audio-by-ace-data-cloud",
       "description": "Generate speech with Fish Audio through Ace Data Cloud and check an existing task. Read the local usage guide before synthesis.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Ace Data Cloud",
         "email": "dev@acedata.cloud"
       },
-      "homepage": "https://github.com/AceDataCloud/FishAudioQwenCode/tree/f7af62678249c1e7d27fb9c0e0ae23845550fc34",
+      "homepage": "https://github.com/AceDataCloud/FishAudioQwenCode/tree/d5b5c31ea735538940d105ff2f1f6fc7555465be",
       "source": "./extensions/fish",
       "category": "audio",
       "keywords": [

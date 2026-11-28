@@ -1,7 +1,7 @@
 {
   "name": "happyhorse-by-ace-data-cloud",
-  "version": "0.1.0-rc.2",
-  "displayName": "HappyHorse by Ace Data Cloud",
+  "version": "0.1.0-rc.3",
+  "displayName": "HappyHorse",
   "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task.",
   "contextFileName": "QWEN.md",
   "mcpServers": {

@@ -1,6 +1,6 @@
 {
   "name": "happyhorse-by-ace-data-cloud",
-  "version": "0.1.0-rc.2",
+  "version": "0.1.0-rc.3",
   "description": "Generate and edit HappyHorse videos through Ace Data Cloud; retrieve the original task.",
   "mcpServers": {
     "happyhorse": {

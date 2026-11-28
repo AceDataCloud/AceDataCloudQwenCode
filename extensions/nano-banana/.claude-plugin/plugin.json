@@ -1,6 +1,6 @@
 {
   "name": "nano-banana-by-ace-data-cloud",
-  "version": "0.1.0-rc.2",
+  "version": "0.1.0-rc.3",
   "description": "Generate and edit Nano Banana images through Ace Data Cloud; query the same task for results.",
   "mcpServers": {
     "nano-banana": {

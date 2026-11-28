@@ -1,4 +1,4 @@
-# Fish Audio by Ace Data Cloud
+# Fish Audio
 
 ![Fish Audio](assets/icon.png)
 
